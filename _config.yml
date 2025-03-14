@@ -1,3 +1,24 @@
-theme: jekyll-theme-cayman
-title: "bimdo-wiki"
-description: "Everything you should know, to get a bimdoer!"
+title: "My Minimal Mistakes Blog"
+description: "A blog built with Jekyll + Minimal Mistakes"
+
+# Use Minimal Mistakes as a remote theme (works on GitHub Pages)
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Whitelisted plugin needed by Minimal Mistakes on GitHub Pages
+plugins:
+  - jekyll-include-cache
+
+# Minimal Mistakes configuration
+collections:
+  posts:
+    output: true
+    permalink: /:title/
+
+# Enable Lunr-based search
+search:
+  enabled: true
+  engine: lunr
+
+# Optional: basic theme settings
+show_excerpts: true
+# theme_skin: "default"  # You can experiment with other skins
