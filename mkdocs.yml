@@ -31,8 +31,6 @@ plugins:
   - search
   - macros
 
-extra_css:
-  - styles/custom.css
 
 markdown_extensions:
   - attr_list
