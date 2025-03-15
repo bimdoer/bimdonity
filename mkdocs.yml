@@ -1,0 +1,22 @@
+site_name: "bimdo wiki"
+theme:
+  name: "material"
+  logo: images/2025-03-14-bimdo-Logo-1080.svg
+    
+  palette:
+    - scheme: default        # Heller Modus (weiß)
+      primary: white
+      accent: light blue
+      toggle:
+        icon: material/lightbulb-outline
+        name: "Switch to dark mode"
+    - scheme: slate          # Dunkler Modus (slate)
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/lightbulb
+        name: "Switch to light mode"
+
+plugins:
+  - search
+  - macros
