@@ -11,7 +11,7 @@ tags:
 ## Export
 Die Wahl des richtigen Werkzeugs in ArchiCAD ist entscheidend für einen erfolgreichen IFC-Export. Während Standardwerkzeuge wie Wand, Decke und Dach mit klar definierten Parametern für Länge, Breite und Höhe arbeiten, verhält sich das Morph-Werkzeug eher wie eine digitale Knetmasse ohne feste Parameter. Im Folgenden zeige ich anhand von fünf Testboxen, wie sich die verschiedenen Werkzeugeinstellungen auf den Export auswirken. Auch wenn die Beispiele ArchiCAD-spezifisch sind, verdeutlichen sie ein grundlegendes Prinzip: Die Wahl des Modellierungswerkzeugs hat direkten Einfluss auf die Exportqualität.
 
-![Boxen](/assets/images/ac640-1000_01_uebersicht-einleitung.png)
+[![Boxen](https://github.com/bimdoer/bimdo-wiki/blob/gh-pages/assets/images/ac640-1000_01_uebersicht-einleitung.png)](https://github.com/bimdoer/bimdo-wiki/blob/gh-pages/assets/images/ac640-1000_01_uebersicht-einleitung.png)
 
 
 ### Fehlermeldung Archicad
