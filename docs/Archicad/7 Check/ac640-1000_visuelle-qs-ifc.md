@@ -11,13 +11,13 @@ tags:
 ## Export
 Die Wahl des richtigen Werkzeugs in ArchiCAD ist entscheidend für einen erfolgreichen IFC-Export. Während Standardwerkzeuge wie Wand, Decke und Dach mit klar definierten Parametern für Länge, Breite und Höhe arbeiten, verhält sich das Morph-Werkzeug eher wie eine digitale Knetmasse ohne feste Parameter. Im Folgenden zeige ich anhand von fünf Testboxen, wie sich die verschiedenen Werkzeugeinstellungen auf den Export auswirken. Auch wenn die Beispiele ArchiCAD-spezifisch sind, verdeutlichen sie ein grundlegendes Prinzip: Die Wahl des Modellierungswerkzeugs hat direkten Einfluss auf die Exportqualität.
 
-[![Boxen](../assets/ac640-1000_01_uebersicht-einleitung.png)](../assets/ac640-1000_01_uebersicht-einleitung.png)
+[![Boxen](assets/ac640-1000_01_uebersicht-einleitung.png)](assets/ac640-1000_01_uebersicht-einleitung.png)
 
 
 ### Fehlermeldung Archicad
 Fehlermeldungen beim Export sollten nicht einfach weggeklickt werden, sondern genau geprüft werden. Auch wenn die Aussagekraft oft gering ist, geben sie wichtige Hinweise auf mögliche Probleme. In diesem Fall fehlen fünf Elemente beim Export - der Grund sind 0mm starke Elemente.
 
-[![Boxen](../assets/ac640-1000_02_Fehlermeldung.png)](../assets/ac640-1000_02_Fehlermeldung.png)
+[![Boxen](assets/ac640-1000_02_Fehlermeldung.png)](assets/ac640-1000_02_Fehlermeldung.png)
 
 
 ### Exportprotokoll Archicad
@@ -25,11 +25,11 @@ Das Exportprotokoll bietet einen detaillierten Einblick in den Exportvorgang. Ne
 
 Bei unserem letzten Export wurden Probleme mit 5 von 21 Elementen festgestellt. Diese sind im unteren Bereich des Protokolls mit ihren eindeutigen GUIDs aufgelistet. Mit diesen Informationen können wir nun gezielt nach den betroffenen Elementen suchen und die Ursachen beheben.
 
-[![Boxen](../assets/ac640-1000_03_protokoll-1024x573.png)](../assets/ac640-1000_03_protokoll-1024x573.png)
+[![Boxen](assets/ac640-1000_03_protokoll-1024x573.png)](assets/ac640-1000_03_protokoll-1024x573.png)
 
 Die manuelle Suche nach problematischen Elementen ist zeitaufwändig, weshalb eine saubere Modellierung von Anfang an wichtig ist. Mit dem Tool "Suchen & Aktivieren" können in ArchiCAD die betroffenen Elemente anhand ihrer GUID schnell gefunden werden. Ähnliche Suchfunktionen stehen auch in den meisten IFC-Viewern zur Verfügung.
 
-[![Suchen & Aktivieren](../assets/ac640-1000_04_suchen-aktivieren.png)](../assets/ac640-1000_04_suchen-aktivieren.png)
+[![Suchen & Aktivieren](assets/ac640-1000_04_suchen-aktivieren.png)](assets/ac640-1000_04_suchen-aktivieren.png)
 
 Weder der Allgemeine IFC-Übersetzer 2x3 noch das IFC-Schema 4 in ArchiCAD 25 können die markierten Elemente exportieren. Die Lösung liegt in den Übersetzer-Einstellungen: Mit aktiviertem "Exakter Geometrieexport" funktioniert der Export ohne Fehlermeldung. Aber Achtung diese Einstellung hat dann wiederum andere Auswirkungen.
 
@@ -43,7 +43,7 @@ Die visuelle Prüfung ist essentiell, besonders bei Teilmodellen und Rohbauexpor
 - Umbau-Filter
 - Schichteinzüge
 
-[![Schichteinzug](../assets/ac640-1000_05_schichteinzug.png)](../assets/ac640-1000_05_schichteinzug.png)
+[![Schichteinzug](assets/ac640-1000_05_schichteinzug.png)](assets/ac640-1000_05_schichteinzug.png)
 
 Eine saubere 3D-Modellierung ist wichtiger als die 2D-Darstellung. Kritische Elemente sollten zu Projektbeginn geprüft werden, danach genügen Stichproben. Frühzeitige Prüfungen ermöglichen es, die Arbeitsweise des Teams durch Favoriten, Templates und Schulungen zu optimieren.
 
@@ -54,7 +54,7 @@ Bei den Geschossen kontrolliere ich immer deren Bezeichnung. Diese sollten:
 - Die Zahl immer vorne haben
 - Keine negativen Zahlen für UGs verwenden (-2UG vermeiden)
 - 
-[![Geschosse](../assets/ac640-1000_06_geschosse.png)](../assets/ac640-1000_06_geschosse.png)
+[![Geschosse](assets/ac640-1000_06_geschosse.png)](assets/ac640-1000_06_geschosse.png)
 
 Dies ist wichtig für eine korrekte Sortierung. Hier einige Beispiele:
 
@@ -144,7 +144,7 @@ Die Kontrolle der IFC-Entitäten sollte systematisch erfolgen:
     - Wichtige Eigenschaften wie "tragend/nicht tragend" müssen auf den definierten Standardfeldern liegen
     - Nur so funktionieren automatisierte Prüfroutinen zuverlässig
 
-[![IFC Entitäten](../assets/ac640-1000_07_entity.png)](../assets/ac640-1000_07_entity.png)
+[![IFC Entitäten](assets/ac640-1000_07_entity.png)](assets/ac640-1000_07_entity.png)
 
 
 ### Effiziente Prüfmethoden
@@ -156,7 +156,7 @@ Die Kontrolle der IFC-Entitäten sollte systematisch erfolgen:
    - Beispiel: Automatische Einfärbung von Fenstern nach Typennummer
    - Ermöglicht schnelle visuelle Kontrolle von Typen und deren Zuordnung
 
-[![BIMCollab](../assets/ac640-1000_08_bimcollab.png)](../assets/ac640-1000_08_bimcollab.png)
+[![BIMCollab](assets/ac640-1000_08_bimcollab.png)](assets/ac640-1000_08_bimcollab.png)
 
 
    Solibri:
@@ -166,7 +166,7 @@ Die Kontrolle der IFC-Entitäten sollte systematisch erfolgen:
    - Verbessert das Verständnis der Modellinformationen durch visuelle Darstellung
    - Unterstützt die Optimierung des Modells
 
-[![Solibri](../assets/ac640-1000_09_solibri.gif)](../assets/ac640-1000_09_solibri.gif)
+[![Solibri](assets/ac640-1000_09_solibri.gif)](assets/ac640-1000_09_solibri.gif)
 
 ## Datenbasiert prüfen
 ### Excel
@@ -182,7 +182,7 @@ Beispiel für Prüfungen:
 - Spalte 2: Balkendiagramm zur Visualisierung der Rahmenbreiten  
 - Spalte 3: Farbcodierte Kategorisierung der Rahmenhöhen
 
-[![Excel](../assets/ac640-1000_10_excel.png)](../assets/ac640-1000_10_excel.png)
+[![Excel](assets/ac640-1000_10_excel.png)](assets/ac640-1000_10_excel.png)
 
 
 ### PowerBI
@@ -190,7 +190,7 @@ PowerBI bietet umfangreiche Möglichkeiten zur Datenanalyse und Visualisierung. 
 
 Ein praktisches Beispiel: Durch die Zusammenführung von etwa 50 IFC-Dateien verschiedener Projektstände in einem Modell und den Export als CSV-Bauteilliste, lassen sich Veränderungen wie Volumenänderungen zwischen den Projektständen effizient vergleichen und analysieren. Dies ermöglicht eine transparente Dokumentation der Projektentwicklung und quantifizierbare Aussagen über Änderungen in verschiedenen Projektphasen.
 
-[![PowerBI](../assets/ac640-1000_11_powerbi.jpg)](../assets/ac640-1000_11_powerbi.jpg)
+[![PowerBI](assets/ac640-1000_11_powerbi.jpg)](assets/ac640-1000_11_powerbi.jpg)
 
 ---
 

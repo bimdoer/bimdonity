@@ -59,17 +59,17 @@ Take the right embed link from youtube (only link), is connected with custom.css
 
 ## Image
 Can't select in the interface.
-![Parameter](/assets/images/ac210-1010_03_Einstellungsdialog.png)
+![Parameter](assets/example-image.svg)
 
 ```
-![Parameter](/assets/images/ac210-1010_03_Einstellungsdialog.png)
+![Parameter](assets/example-image.svg)
 ```
 
 Can select in the interface.
-[![Parameter](/assets/images/ac210-1010_03_Einstellungsdialog.png)](/assets/images/ac210-1010_03_Einstellungsdialog.png)
+[![Parameter](assets/example-image.svg)](assets/example-image.svg)
 
 ```
-[![Parameter](/assets/images/ac210-1010_03_Einstellungsdialog.png)](/assets/images/ac210-1010_03_Einstellungsdialog.png)
+[![Parameter](assets/example-image.svg)](assets/example-image.svg)
 ```
 ---
 
@@ -124,20 +124,20 @@ Can select in the interface.
 
 <div class="responsive-container"> <!-- defined in custom.css -->
   <div>
-    <img src="/assets/images/ac210-1010_03_Einstellungsdialog.png" alt="Image 1" style="width:100%">
+    <img src="assets/example-image.svg" alt="Image 1" style="width:100%">
   </div>
   <div>
-    <img src="/assets/images/ac210-1010_03_Einstellungsdialog.png" alt="Image 2" style="width:100%">
+    <img src="assets/example-image.svg" alt="Image 2" style="width:100%">
   </div>
 </div>
 
 ```
 <div class="responsive-container"> <!-- defined in custom.css -->
   <div>
-    <img src="/assets/images/ac210-1010_03_Einstellungsdialog.png" alt="Image 1" style="width:100%">
+    <img src="assets/example-image.svg" alt="Image 1" style="width:100%">
   </div>
   <div>
-    <img src="/assets/images/ac210-1010_03_Einstellungsdialog.png" alt="Image 2" style="width:100%">
+    <img src="assets/example-image.svg" alt="Image 2" style="width:100%">
   </div>
 </div>
 ```

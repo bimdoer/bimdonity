@@ -15,10 +15,10 @@ Das folgende Modell wurde auf Basis bestehender Typisierungskonzepte (z.B. von P
 
 <div class="responsive-container">
   <div>
-    <img src="../assets/bi100-1003_01_perimter.png" alt="Perimetermodell" style="width:100%">
+    <img src="assets/bi100-1003_01_perimter.png" alt="Perimetermodell" style="width:100%">
   </div>
   <div>
-    <img src="../assets/bi100-1003_02_typen.png" alt="Typenmodell" style="width:100%">
+    <img src="assets/bi100-1003_02_typen.png" alt="Typenmodell" style="width:100%">
   </div>
 </div>
 
@@ -46,17 +46,17 @@ Die Sprachenwahl ist ein wichtiger Aspekt der Typisierung. Verschiedene Projektp
 ### Modell öffnen
 Um ein Modell zu öffnen, klicke beim BIMx auf Play. Wähle links eines der beiden Modelle und klicke unten auf das entsprechende Vorschaubild.
 
-[![Parameter](../assets/bi100-1003_03_anleitung.png)](../assets/bi100-1003_03_anleitung.png)
+[![Parameter](assets/bi100-1003_03_anleitung.png)](assets/bi100-1003_03_anleitung.png)
 
 ### Bauteil-Informationen
 Im Typenmodell können die Bedeutungen der Farben durch einen Rechtsklick auf ein Element und Auswahl von "Info" angezeigt werden. Dort sind die Typisierungen in Deutsch und Englisch hinterlegt.
 
-[![Parameter](../assets/bi100-1003_04_anleitung.png)](../assets/bi100-1003_04_anleitung.png)
+[![Parameter](assets/bi100-1003_04_anleitung.png)](assets/bi100-1003_04_anleitung.png)
 
 ### Status beheizt
 Die roten und blauen Kugeln zeigen den Heizstatus (beheizt/unbeheizt) der Räume an. Per Rechtsklick auf "Info" werden Details angezeigt. Die Räume selbst können ebenfalls eingeblendet und nach warm/kalt gefiltert werden, wie im Screenshot dargestellt.
 
-[![Parameter](../assets/bi100-1003_05_anleitung.png)](../assets/bi100-1003_05_anleitung.png)
+[![Parameter](assets/bi100-1003_05_anleitung.png)](assets/bi100-1003_05_anleitung.png)
 
 ## Fazit
 Typisierung gab es schon vor BIM - bereits ein markierter Plan gruppiert Elemente. Der Vorteil des digitalen Modells liegt in der konsistenten Datenhaltung und effizienten Visualisierung, wodurch alle Projektbeteiligten ein besseres Verständnis des Bauvorhabens entwickeln können.
