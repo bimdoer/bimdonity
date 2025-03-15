@@ -1,0 +1,9 @@
+/* Überschreibt die Linkfarbe im Inhaltsbereich */
+.md-typeset a {
+  color: #4298fa !important; /* Setzt den Linktext auf schwarz */
+}
+/* Überschreibt die Farbe des aktiven Navigationselements */
+.md-nav__link.md-nav__link--active {
+  color: #4298fa !important;  /* Beispiel: Schwarz */
+}
+
