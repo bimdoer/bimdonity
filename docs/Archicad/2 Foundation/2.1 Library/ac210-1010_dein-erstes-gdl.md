@@ -79,8 +79,8 @@ end !Ende des Scripts
     </code></pre>
   </div>
   <div>
-    <a href="/assets/images/ac210-1010_01_3D-Ansicht-300x278.png" target="_blank">
-      <img src="/assets/images/ac210-1010_01_3D-Ansicht-300x278.png" alt="3D-Ansicht">
+    <a href="../assets/ac210-1010_01_3D-Ansicht-300x278.png" target="_blank">
+      <img src="../assets/ac210-1010_01_3D-Ansicht-300x278.png" alt="3D-Ansicht">
     </a>
   </div>
 </div>
@@ -109,8 +109,8 @@ end !Ende des Scripts
     </code></pre>
   </div>
   <div>
-    <a href="/assets/images/ac210-1010_02_2D-Ansicht-300x273.png" target="_blank">
-      <img src="/assets/images/ac210-1010_02_2D-Ansicht-300x273.png" alt="2D-Ansicht">
+    <a href="../assets/ac210-1010_02_2D-Ansicht-300x273.png" target="_blank">
+      <img src="../assets/ac210-1010_02_2D-Ansicht-300x273.png" alt="2D-Ansicht">
     </a>
   </div>
 </div>
@@ -142,7 +142,7 @@ end !Ende des Scripts
 ```
 
 Drücke "T", um die Objekteinstellungen zu öffnen, wo du die Parameter A, B und ZZYZX findest. Dein parametrisiertes GDL-Objekt ist nun erstellt.
-[![Parameter](/assets/images/ac210-1010_03_Einstellungsdialog.png)](/assets/images/ac210-1010_03_Einstellungsdialog.png)
+[![Parameter](../assets/ac210-1010_03_Einstellungsdialog.png)](../assets/ac210-1010_03_Einstellungsdialog.png)
 
 ---
 
@@ -151,7 +151,7 @@ Um weitere Parameter zu erkunden, wähle das GDL-Objekt aus und drücke Strg+Shi
 
 Erstelle zwei neue Parameter im Register "Parameter". Für die Namensgebung empfiehlt sich ein konsistentes Konzept, eventuell basierend auf dem [Graphisoft Standard](https://gdl.graphisoft.com/gdl-style-guide/naming-conventions). Längere Namen sind hilfreich, um die Parameter direkt zu erkennen, ohne eine Legende zu benötigen.
 
-[![Parameter](/assets/images/ac210-1010_04_Parameter.png)](/assets/images/ac210-1010_04_Parameter.png)
+[![Parameter](../assets/ac210-1010_04_Parameter.png)](../assets/ac210-1010_04_Parameter.png)
 
 Die Parameter-Tabelle enthält folgende wichtige Spalten:
 
@@ -190,7 +190,7 @@ Ein separates 2D-Script bietet zwei wichtige Vorteile:
 2. Grundrisse verwenden oft Symbole statt reiner Projektionen, z.B. bei Steckdosen und Schaltern.
 
 Um die project2-Linien von unseren eigenen unterscheiden zu können, erstellen wir zunächst neue Parameter wie im Screenshot gezeigt.
-[![Parameter](/assets/images/ac210-1010_05_Parameter.png)](/assets/images/ac210-1010_05_Parameter.png)
+[![Parameter](../assets/ac210-1010_05_Parameter.png)](../assets/ac210-1010_05_Parameter.png)
 
 
 Die Befehle "pen" und "line_type" werden nach project2 eingefügt, sodass die project2-Linien mit Stift 1 und Linientyp 1 gezeichnet werden und alle weiteren Linien die neuen Attribute erhalten.
@@ -237,7 +237,7 @@ Nachdem wir die Linienwerkzeuge kennengelernt haben, wollen wir nun mit dem Befe
 
 Erstelle die Parameter wie im Screenshot gezeigt und ergänze den Schraffurtyp im Script nach den Stift- und Linientyp-Definitionen.
 
-[![Parameter](/assets/images/ac210-1010_06_Parameter.png)](/assets/images/ac210-1010_06_Parameter.png)
+[![Parameter](../assets/ac210-1010_06_Parameter.png)](../assets/ac210-1010_06_Parameter.png)
 
 
 Ersetze den rect2-Befehl durch poly2 und füge die Anzahl Ecken (4) sowie die Darstellungsart (1+2+4+0) vor den xy-Werten ein. Die Punkte entsprechen den gleichen Endpunkten wie bei line2.

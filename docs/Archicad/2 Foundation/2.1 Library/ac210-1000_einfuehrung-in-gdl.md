@@ -30,13 +30,15 @@ Ein guter Startpunkt ist es, sich auf ein einfaches 2D- und 3D-Skript zu konzent
 
   - **Tipp:** Beschränke dich anfangs auf grundlegende Befehle, etwa das Erzeugen eines Quaders mit dem Befehl `block`.  
   - **Visualisierung:** Nutze die 2D- und 3D-Ansicht, um die Auswirkungen deines Skripts unmittelbar zu überprüfen.
-[![Uebersicht-Editor](/assets/images/ac210-1000_01_Uebersicht-Editor.png)](/assets/images/ac210-1000_01_Uebersicht-Editor.png)
+[![Uebersicht-Editor](../assets/ac210-1000_01_Uebersicht-Editor.png)](../assets/ac210-1000_01_Uebersicht-Editor.png)
 ---
+
+docs\assets\images\ac210-1000_02_Referenzhandbuch.png
 
 ## Nützliche Ressourcen
 
 - Das [GDL Referenzhandbuch](https://help.graphisoft.com/AC/24/GER/GDL.pdf) bietet eine umfangreiche Übersicht der Befehle.
-[![Referenzhandbuch](/assets/images/ac210-1000_02_Referenzhandbuch.png)](/assets/images/ac210-1000_02_Referenzhandbuch.png)
+[![Referenzhandbuch](../assets/ac210-1000_02_Referenzhandbuch.png)](../assets/ac210-1000_02_Referenzhandbuch.png)
 - Seiten wie [SelfGDL.de](https://www.selfgdl.de/) und das [GDL-Kochbuch](https://issuu.com/dnicholsoncole/docs/gdlcookbook3_01) von David Nicholson-Cole liefern praxisnahe Beispiele.
 
 **Weitere Ressourcen:**   
