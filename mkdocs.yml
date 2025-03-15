@@ -1,4 +1,5 @@
 site_name: "bimdo wiki"
+site_url: https://bimdoer.github.io/bimdo-wiki/
 theme:
   name: material
   logo: images/bimdo-logo.svg
