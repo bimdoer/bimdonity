@@ -8,13 +8,8 @@ Willkommen im offiziellen Wiki von bimdo.ch! Alles was du brauchst um mit BIM du
 
 ## Introduction
 
-
-
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:100%;">
-  <iframe src="https://www.youtube.com/watch?v=dN9_QtesNgE&list=PL2V-dPIx6qGMe5Wtl_4-BkmzPimfaMmP6&index=2" 
-          style="position:absolute;top:0;left:0;width:100%;height:100%;" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/iJ-YtqRgC4Y?si=0zJ2X5Puv_qRmD7j" 
           allowfullscreen>
   </iframe>
 </div>

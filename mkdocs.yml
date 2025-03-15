@@ -32,3 +32,7 @@ plugins:
 
 extra_css:
   - styles/custom.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
