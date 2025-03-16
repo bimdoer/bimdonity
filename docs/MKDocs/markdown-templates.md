@@ -124,10 +124,10 @@ Can select in the interface.
 
 <div class="responsive-container"> <!-- defined in custom.css -->
   <div>
-    <img src="assets/example-image.svg" alt="Image 1" style="width:100%">
+    <img src="../assets/example-image.svg" alt="Image 1" style="width:100%">
   </div>
   <div>
-    <img src="assets/example-image.svg" alt="Image 2" style="width:100%">
+    <img src="../assets/example-image.svg" alt="Image 2" style="width:100%">
   </div>
 </div>
 

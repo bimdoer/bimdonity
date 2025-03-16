@@ -79,9 +79,7 @@ end !Ende des Scripts
     </code></pre>
   </div>
   <div>
-    <a href="assets/ac210-1010_01_3D-Ansicht-300x278.png" target="_blank">
-      <img src="assets/ac210-1010_01_3D-Ansicht-300x278.png" alt="3D-Ansicht">
-    </a>
+      <img src="../assets/ac210-1010_01_3D-Ansicht-300x278.png" alt="3D-Ansicht">
   </div>
 </div>
 
@@ -109,9 +107,7 @@ end !Ende des Scripts
     </code></pre>
   </div>
   <div>
-    <a href="assets/ac210-1010_02_2D-Ansicht-300x273.png" target="_blank">
-      <img src="assets/ac210-1010_02_2D-Ansicht-300x273.png" alt="2D-Ansicht">
-    </a>
+        <img src="../assets/ac210-1010_02_2D-Ansicht-300x273.png" alt="2D-Ansicht">
   </div>
 </div>
 
