@@ -5,7 +5,7 @@ on:
     branches:
       - main                # Trigger when changes are pushed to the 'main' branch
     paths:
-      - 'docs/**/*'             # Trigger when any file in 'docs/' (Markdown files) changes
+      - 'docs/**/*'          # Trigger when any file in 'docs/' or its subdirectories changes
 
 jobs:
   deploy:
@@ -25,7 +25,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install mkdocs
           pip install mkdocs-material  # Install the Material for MkDocs theme
-          pip install mkdocs-macros    # Install the MkDocs Macros plugin
+          pip install mkdocs-macros-plugin  # Install the MkDocs Macros plugin
 
       - name: Build MkDocs site
         run: mkdocs build --site-dir ./site
