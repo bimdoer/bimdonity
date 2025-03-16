@@ -5,7 +5,8 @@ on:
     branches:
       - main                # Trigger when changes are pushed to the 'main' branch
     paths:
-      - 'docs/*'             # Trigger when any file in 'docs/' (Markdown files) changes
+      - 'docs/**/*'             # Trigger when any file in 'docs/' (Markdown files) changes
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -14,23 +15,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Check GitHub Token Permissions
-        run: |
-          echo "Checking GitHub Token Permissions..."
-          curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-               -H "Accept: application/vnd.github.v3+json" \
-               https://api.github.com/repos/${{ github.repository }}/actions/permissions \
-               | jq .
-
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: 3.x
 
-      - name: Install MkDocs
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install mkdocs
+          pip install mkdocs-material  # Install the Material for MkDocs theme
 
       - name: Build MkDocs site
         run: mkdocs build --site-dir ./site
