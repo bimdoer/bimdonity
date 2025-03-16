@@ -6,8 +6,6 @@ on:
       - main                # Trigger when changes are pushed to the 'main' branch
     paths:
       - 'docs/*'             # Trigger when any file in 'docs/' (Markdown files) changes
-      - 'assets/**/*'        # Trigger when any file in 'assets/' (images, CSS, JS) changes
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
