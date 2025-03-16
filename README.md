@@ -142,6 +142,8 @@ This documentation uses Material for MkDocs theme. You can customize:
 
 ## 🚀 Building and Deployment
 
+‼️‼️ __The workflow deploy will push all changes from the main/docs/**/*, there is no build or gh-deploy needed, because for the navigation the plugin will do everything automated.__‼️‼️
+
 To build the documentation site:
 ```bash
 mkdocs build
@@ -170,32 +172,12 @@ Note: Always ensure you're working on the main branch for development and let th
 - `mkdocs gh-deploy` - Deploy to GitHub Pages
 - `mkdocs -h` - Print help message and exit
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+See the LICENSE file for details.
 
 ## 📚 Additional Resources
 
 - [MkDocs Documentation](https://www.mkdocs.org/)
 - [Material for MkDocs Documentation](https://squidfunk.github.io/mkdocs-material/)
 - [Markdown Guide](https://www.markdownguide.org/)
-
-## 📺 Embedding YouTube Videos
-
-To embed a YouTube video, use the following HTML structure:
-
-```html
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" allowfullscreen></iframe>
-</div>
-```
-
-Ensure your `styles/custom.css` includes the necessary CSS for responsiveness.
