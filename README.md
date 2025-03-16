@@ -51,12 +51,16 @@ The documentation will be available at `http://127.0.0.1:8000`
 bimdo-wiki/
 ├── docs/                  # Main documentation source directory
 │   ├── index.md          # Main landing page of the blog
-│   ├── assets/           # Resources used within markdown files
-│   │   ├── images/       # Images referenced in markdown content
-│   │   └── files/        # Other assets (PDFs, etc.)
+│   ├── MKDocs/           # Contains MkDocs specific documentation
+│       └── assets/           # Resources used within markdown files
+│   ├── BIM/              # BIM related documentation
+│       └── assets/           # Resources used within markdown files
+│   ├── Grasshopper/      # Grasshopper related documentation
+│       └── assets/           # Resources used within markdown files
+│   ├── Archicad/         # Archicad related documentation
+│       └── assets/           # Resources used within markdown files
 │   ├── images/           # Images for site construction (logos, UI elements)
-│   └── styles/      # Custom CSS overrides
-│       └── extra.css     # Custom styling (blue color scheme)
+│   ├── styles/           # Custom CSS overrides
 ├── mkdocs.yml            # MkDocs configuration file
 └── requirements.txt      # Python dependencies
 ```
@@ -65,15 +69,16 @@ bimdo-wiki/
 
 - `docs/`: Contains all source content. This is the only directory used to generate the final site
   - `index.md`: Main landing page and entry point of the blog
-  - `assets/`: Contains all resources that are referenced in markdown files
-    - Organized structure for easy content management
-    - Keep your blog post images and files here
+  - `MKDocs/`, `BIM/`, `Grasshopper/`, `Archicad/`: Subdirectories for organizing content by topic
   - `images/`: Contains structural images for the site itself
     - Logo, favicon, UI elements
     - Not for blog content images
   - `styles/`: Contains style overrides
     - Customizes the material theme
     - Implements BIMDO's blue color scheme
+  - `assets/`: Contains all resources that are referenced in markdown files
+    - Organized structure for easy content management
+    - Keep your blog post images and files here
 
 ### Usage as a Blog
 
@@ -103,6 +108,17 @@ This documentation site is structured as a blog, which means:
 - Place your Markdown files in the `docs/` directory
 - Images and other assets should go in `docs/assets/` or similar
 - The navigation structure is configured in `mkdocs.yml`
+
+### Writing Relative Paths
+
+- **Markdown**: Use relative paths to reference images and other assets. For example:
+  ```markdown
+  ![Image Description](assets/images/your-image.png)
+  ```
+- **HTML**: When using HTML within Markdown files, ensure paths are relative to the Markdown file's location:
+  ```html
+  <img src="../assets/images/your-image.png" alt="Image Description">
+  ```
 
 ## ⚙️ Configuration
 
