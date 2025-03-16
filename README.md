@@ -142,7 +142,7 @@ This documentation uses Material for MkDocs theme. You can customize:
 
 ## 🚀 Building and Deployment
 
-‼️‼️ __The workflow deploy will push all changes from the main/docs/**/*, there is no build or gh-deploy needed, because for the navigation the plugin will do everything automated.__‼️‼️
+‼️‼️ __The deployment workflow will automatically push all changes from main/docs/**/*. There is no need to manually build or use gh-deploy, as the plugin will handle the navigation and deployment automatically.__ ‼️‼️
 
 To build the documentation site:
 ```bash
