@@ -27,7 +27,5 @@ Hier beginnt Deine Reise in die Welt von Building Information Modeling. 🌍 Ega
 [**LinkedIn:**](https://www.linkedin.com/in/manuel-emmenegger-45353819b/)  
   Vernetze dich mit mir auf LinkedIn für berufliche Neuigkeiten und Kontakte.  
 
-[**GitHub:**](https://github.com/manemme/bimdo-wiki)  
+[**GitHub:**](https://github.com/bimdoer/)  
   Finde uns auf GitHub und arbeite direkt mit am opensource-Code.
-
-## Mitwirkende
