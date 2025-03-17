@@ -2,10 +2,8 @@
 title: "Welcome"
 ---
 
-# bimdo Wiki
-
-Willkommen im offiziellen Wiki von bimdo.ch! Alles was du brauchst um mit BIM durchzustarten und bimdoer zu werden.
-
+# bimdonity - Wissensnetzwerk für BIM!
+Hier beginnt Deine Reise in die Welt von Building Information Modeling. Egal, ob Du gerade erst einsteigst oder schon als bimdoer unterwegs bist – bei uns findest Du alles, was Du brauchst, um mit BIM durchzustarten. Bei uns ist Wissen frei zugänglich, Open-Source und jeder kann seinen Beitrag leisten – gemeinsam schaffen wir eine unabhängige Plattform, die auf offenen Standards basiert.
 ## Introduction
 
 <div class="video-container">
