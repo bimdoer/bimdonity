@@ -1,6 +1,7 @@
 ---
 title: "Markdown Templates"
 date: "2024-01-17"
+author: "Manuel Emmenegger | bimdo.ch"
 tags:
   - "Markdown"
   - "Template"
@@ -17,6 +18,7 @@ Always use a header, title is used for navigation and title. Date appears in the
 ---
 title: "Markdown Templates"
 date: "2024-01-17"
+author: "Manuel Emmenegger | bimdo.ch"
 tags:
   - "Markdown"
   - "Template"
@@ -214,12 +216,12 @@ Use the `print()` function to display output in Python.
 
 
 ---
-**Veröffentlicht am:** {{ page.meta.date }} | **Code** {{ page.file.name[:9] }}
+**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}  | **Autor:** {{ page.meta.author }}
 
 **Schlagwörter:** {{ page.meta.tags | join(', ') }}
 
 ```
-**Veröffentlicht am:** {{ page.meta.date }} | **Code** {{ page.file.name[:9] }}
+**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}  | **Autor:** {{ page.meta.author }}
 
 **Schlagwörter:** {{ page.meta.tags | join(', ') }}
 ```
