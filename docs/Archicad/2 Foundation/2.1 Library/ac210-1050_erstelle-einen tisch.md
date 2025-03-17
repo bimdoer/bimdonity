@@ -1,6 +1,7 @@
 ---
 title: "Erstelle einen Tisch"
 date: "2025-03-15"
+author: "Manuel Emmenegger | bimdo.ch"
 tags: 
   - "Archicad"
   - "GDL"
@@ -69,6 +70,6 @@ In diesem Video lernen wir die grafischen Parameter kennen. Wir machen Oberfläc
 </div>
 
 ---
-**Veröffentlicht am:** {{ page.meta.date }} | **Code** {{ page.file.name[:9] }}
+**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}  | **Autor:** {{ page.meta.author }}
 
 **Schlagwörter:** {{ page.meta.tags | join(', ') }}
