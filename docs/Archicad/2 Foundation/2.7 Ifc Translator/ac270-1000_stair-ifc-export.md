@@ -1,6 +1,7 @@
 ---
 title: "Ifc Treppe Rohbau"
 date: "2022-07-26"
+author: "Manuel Emmenegger | bimdo.ch"
 tags: 
   - "Archicad"
   - "Bimcollab"
@@ -22,6 +23,6 @@ Beim Austausch mit dem Bauingenieur ist es wichtig, das Architekturmodell auf di
 
 
 ---
-**Veröffentlicht am:** {{ page.meta.date }} | **Code** {{ page.file.name[:9] }}
+**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}  | **Autor:** {{ page.meta.author }}
 
 **Schlagwörter:** {{ page.meta.tags | join(', ') }}
