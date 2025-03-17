@@ -1,6 +1,7 @@
 ---
 title: "4 BIM-Konzepte"
 date: "2022-03-17"
+author: "Manuel Emmenegger | bimdo.ch"
 tags: 
   - "BigBIM"
   - "BIM"
@@ -24,6 +25,6 @@ Die Unterschiede und Zusammenhänge werden anhand konkreter Beispiele erläutert
 
 
 ---
-**Veröffentlicht am:** {{ page.meta.date }} | **Code** {{ page.file.name[:9] }}
+**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}  | **Autor:** {{ page.meta.author }}
 
 **Schlagwörter:** {{ page.meta.tags | join(', ') }}
