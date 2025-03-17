@@ -1,6 +1,7 @@
 ---
 title: "Dein erstes GDL"
 date: "2025-03-15"
+author: "Manuel Emmenegger | bimdo.ch"
 tags: 
   - "Archicad"
   - "GDL"
@@ -319,7 +320,7 @@ Der Befehl [poly2_B](https://www.selfgdl.de/2d-elemente-2/polygone/poly2_b/) bie
 ```
 
 ---
-**Veröffentlicht am:** {{ page.meta.date }} | **Code** {{ page.file.name[:9] }}
+**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}  | **Autor:** {{ page.meta.author }}
 
 **Schlagwörter:** {{ page.meta.tags | join(', ') }}
 
