@@ -1,6 +1,7 @@
 ---
 title: "Geschossbezeichnungen"
 date: "2022-08-09"
+author: "Manuel Emmenegger | bimdo.ch"
 tags: 
   - "Archicad"
   - "BIM"
@@ -19,6 +20,6 @@ Namenskonventionen ist wohl ein Thema mit ganz viel Diskussionsstoff und dies be
 
 
 ---
-**Veröffentlicht am:** {{ page.meta.date }} | **Code** {{ page.file.name[:9] }}
+**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}  | **Autor:** {{ page.meta.author }}
 
 **Schlagwörter:** {{ page.meta.tags | join(', ') }}
