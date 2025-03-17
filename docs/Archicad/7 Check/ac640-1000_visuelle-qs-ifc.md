@@ -1,6 +1,7 @@
 ---
 title: "Visuelle QS Ifc"
 date: "2022-04-04"
+author: "Manuel Emmenegger | bimdo.ch"
 tags: 
   - "Archicad"
   - "Export" 
@@ -194,6 +195,6 @@ Ein praktisches Beispiel: Durch die Zusammenführung von etwa 50 IFC-Dateien ver
 
 ---
 
-**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}
+**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}  | **Autor:** {{ page.meta.author }}
 
 **Schlagwörter:** {{ page.meta.tags | join(', ') }}
