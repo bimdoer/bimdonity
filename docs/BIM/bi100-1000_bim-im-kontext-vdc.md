@@ -1,6 +1,7 @@
 ---
 title: "BIM im Kontext VDC"
 date: "2022-06-28"
+author: "Manuel Emmenegger | bimdo.ch"
 tags: 
   - "BIM"
   - "VDC"
@@ -22,6 +23,6 @@ Durch diese ganzheitliche Betrachtung können konkrete Mehrwerte über den gesam
 
 
 ---
-**Veröffentlicht am:** {{ page.meta.date }} | **Code** {{ page.file.name[:9] }}
+**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}  | **Autor:** {{ page.meta.author }}
 
 **Schlagwörter:** {{ page.meta.tags | join(', ') }}
