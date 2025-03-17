@@ -3,7 +3,8 @@ title: "Welcome"
 ---
 
 # bimdonity - Wissensnetzwerk für BIM!
-Hier beginnt Deine Reise in die Welt von Building Information Modeling. Egal, ob Du gerade erst einsteigst oder schon als bimdoer unterwegs bist – bei uns findest Du alles, was Du brauchst, um mit BIM durchzustarten. Bei uns ist Wissen frei zugänglich, Open-Source und jeder kann seinen Beitrag leisten – gemeinsam schaffen wir eine unabhängige Plattform, die auf offenen Standards basiert.
+Hier beginnt Deine Reise in die Welt von Building Information Modeling. 🌍 Egal, ob Du gerade erst einsteigst oder schon als bimdoer unterwegs bist – bei uns findest Du alles, was Du brauchst, um mit BIM durchzustarten. 🚀 Bei uns ist Wissen frei zugänglich, Open-Source und jeder kann seinen Beitrag leisten. 🤝 Gemeinsam schaffen wir eine unabhängige Plattform, die auf offenen Standards basiert. 🔓
+
 ## Introduction
 
 <div class="video-container">
