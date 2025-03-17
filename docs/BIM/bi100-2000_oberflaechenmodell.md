@@ -1,6 +1,7 @@
 ---
 title: "Oberflächenmodell TWM"
 date: "2022-04-04"
+author: "Manuel Emmenegger | bimdo.ch"
 tags: 
   - "TWM"
   - "Export" 
@@ -16,6 +17,6 @@ Bei der Definition von schrägen Oberflächen, wie z.B. Rampen, Betondecken im G
 
 ---
 
-**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}
+**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}  | **Autor:** {{ page.meta.author }}
 
 **Schlagwörter:** {{ page.meta.tags | join(', ') }}
