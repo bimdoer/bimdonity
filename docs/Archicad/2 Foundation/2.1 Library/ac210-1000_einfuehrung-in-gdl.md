@@ -1,6 +1,7 @@
 ---
 title: "Einführung in GDL"
 date: "2025-03-15"
+author: "Manuel Emmenegger | bimdo.ch"
 tags: 
   - "Archicad"
   - "GDL"
@@ -66,6 +67,6 @@ Zusätzlich ist der Austausch in Foren (wie dem [ArchiCAD-Talk](https://archicad
 ---
 
 
-**Veröffentlicht am:** {{ page.meta.date }} | **Code** {{ page.file.name[:9] }}
+**Veröffentlicht am:** {{ page.meta.date }} | **Code** {{ page.file.name[:9] }}  | **Autor** {{ page.meta.author }}
 
 **Schlagwörter:** {{ page.meta.tags | join(', ') }}
