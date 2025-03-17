@@ -1,6 +1,7 @@
 ---
 title: "Typisierung Bauphysik"
 date: "2022-09-14"
+author: "Manuel Emmenegger | bimdo.ch"
 tags: 
   - "Bauphysik"
   - "BIM"
@@ -63,6 +64,6 @@ Typisierung gab es schon vor BIM - bereits ein markierter Plan gruppiert Element
 
 
 ---
-**Veröffentlicht am:** {{ page.meta.date }} | **Code** {{ page.file.name[:9] }}
+**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}  | **Autor:** {{ page.meta.author }}
 
 **Schlagwörter:** {{ page.meta.tags | join(', ') }}
