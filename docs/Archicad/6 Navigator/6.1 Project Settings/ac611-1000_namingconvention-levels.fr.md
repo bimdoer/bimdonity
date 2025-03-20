@@ -14,6 +14,6 @@ tags:
 Cette page est actuellement en construction. Le contenu sera disponible prochainement.
 
 ---
-**Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}  | **Auteur:** {{ page.meta.author }}
+**Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Auteur:** {{ page.meta.author }}
 
 **Tags:** {{ page.meta.tags | join(', ') }} 

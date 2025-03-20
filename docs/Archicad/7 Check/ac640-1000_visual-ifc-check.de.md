@@ -195,6 +195,6 @@ Ein praktisches Beispiel: Durch die Zusammenführung von etwa 50 IFC-Dateien ver
 
 ---
 
-**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}  | **Autor:** {{ page.meta.author }}
+**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Autor:** {{ page.meta.author }}
 
 **Schlagwörter:** {{ page.meta.tags | join(', ') }}

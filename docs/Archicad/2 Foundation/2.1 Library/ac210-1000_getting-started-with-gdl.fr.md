@@ -64,6 +64,6 @@ De plus, les échanges sur les forums (comme [ArchiCAD-Talk](https://archicad-ta
 
 ---
 
-**Publié le :** {{ page.meta.date }} | **Code :** {{ page.file.name[:9] }} | **Auteur :** {{ page.meta.author }}
+**Publié le :** {{ page.meta.date }} | **Code :** {{ page.file.name[:10] }} | **Auteur :** {{ page.meta.author }}
 
 **Mots-clés :** {{ page.meta.tags | join(', ') }}

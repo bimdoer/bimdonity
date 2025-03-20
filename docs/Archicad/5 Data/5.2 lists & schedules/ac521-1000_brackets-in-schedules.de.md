@@ -19,6 +19,6 @@ Klammern ( ) in Auswertungslisten sind mächtige Werkzeuge, besonders in Kombina
 
 
 ---
-**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:9] }}  | **Autor:** {{ page.meta.author }}
+**Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Autor:** {{ page.meta.author }}
 
 **Schlagwörter:** {{ page.meta.tags | join(', ') }}
