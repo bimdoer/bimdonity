@@ -33,7 +33,7 @@ plugins:
   - macros
   - i18n:
       docs_structure: suffix
-      fallback_to_default: false
+      fallback_to_default: true
       languages:
         - locale: de
           default: true
