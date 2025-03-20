@@ -80,7 +80,7 @@ end !Ende des Scripts
     </code></pre>
   </div>
   <div>
-      <img src="../assets/ac210-1010_01_3D-Ansicht-300x278.png" alt="3D-Ansicht">
+      <img src="../assets/ac210-1010_01_3D-View-300x278.png" alt="3D View">
   </div>
 </div>
 
@@ -108,7 +108,7 @@ end !Ende des Scripts
     </code></pre>
   </div>
   <div>
-        <img src="../assets/ac210-1010_02_2D-Ansicht-300x273.png" alt="2D-Ansicht">
+        <img src="../assets/ac210-1010_02_2D-View-300x273.png" alt="2D-Ansicht">
   </div>
 </div>
 
@@ -139,7 +139,7 @@ end !Ende des Scripts
 ```
 
 Drücke "T", um die Objekteinstellungen zu öffnen, wo du die Parameter A, B und ZZYZX findest. Dein parametrisiertes GDL-Objekt ist nun erstellt.
-[![Parameter](assets/ac210-1010_03_Einstellungsdialog.png)](assets/ac210-1010_03_Einstellungsdialog.png)
+[![Parameters](assets/ac210-1010_03_Settings-Dialog.png)](assets/ac210-1010_03_Settings-Dialog.png)
 
 ---
 

@@ -2,6 +2,7 @@ site_name: "bimdonity"
 site_url: https://bimdoer.github.io/bimdonity/
 theme:
   name: material
+  language: de
   logo: images/bimdo-logo.svg
   favicon: images/bimdo-logo.svg
     
@@ -30,6 +31,24 @@ extra:
 plugins:
   - search
   - macros
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: false
+      languages:
+        - locale: de
+          default: true
+          name: Deutsch
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+        - locale: it
+          name: Italiano
+          build: true
+        - locale: en
+          name: English
+          build: true
+
 
 extra_css:
   - styles/custom.css

@@ -1,12 +1,13 @@
-# BIMDO Wiki Documentation
+# BIMDONITY Documentation
 
-This repository contains the BIMDO Wiki documentation, built using MkDocs, a fast and simple static site generator that's geared towards building project documentation.
+This repository contains the BIMDONITY documentation, built using MkDocs, a fast and simple static site generator that's geared towards building project documentation.
 
 ## 🚀 Tech Stack
 
 - **Documentation Framework**: MkDocs
-- **Theme**: Material for MkDocs
+- **Theme**: Material for MkDocs with custom BIMDONITY styling
 - **Markdown**: Standard Markdown with MkDocs extensions
+- **Internationalization**: mkdocs-static-i18n for German, French, Italian and English support
 
 ## 📋 Prerequisites
 
@@ -19,7 +20,7 @@ Before you begin, ensure you have the following installed:
 1. Clone the repository:
 ```bash
 git clone [your-repository-url]
-cd bimdo-wiki
+cd bimdonity
 ```
 
 2. Create and activate a virtual environment (recommended):
@@ -35,6 +36,8 @@ source venv/bin/activate
 ```bash
 pip install mkdocs
 pip install mkdocs-material
+pip install mkdocs-static-i18n
+pip install mkdocs-macros-plugin
 # Install any additional plugins you're using
 ```
 
@@ -48,21 +51,40 @@ The documentation will be available at `http://127.0.0.1:8000`
 ## 📁 Project Structure
 
 ```
-bimdo-wiki/
-├── docs/                  # Main documentation source directory
-│   ├── index.md          # Main landing page of the blog
-│   ├── MKDocs/           # Contains MkDocs specific documentation
-│       └── assets/           # Resources used within markdown files
-│   ├── BIM/              # BIM related documentation
-│       └── assets/           # Resources used within markdown files
-│   ├── Grasshopper/      # Grasshopper related documentation
-│       └── assets/           # Resources used within markdown files
-│   ├── Archicad/         # Archicad related documentation
-│       └── assets/           # Resources used within markdown files
-│   ├── images/           # Images for site construction (logos, UI elements)
-│   ├── styles/           # Custom CSS overrides
-├── mkdocs.yml            # MkDocs configuration file
-└── requirements.txt      # Python dependencies
+bimdonity/
+├── docs/ # Main documentation source directory
+│ ├── index.de.md # German landing page (default)
+│ ├── index.en.md # English landing page
+│ ├── index.fr.md # French landing page
+│ ├── index.it.md # Italian landing page
+│ ├── MKDocs/ # Contains MkDocs specific documentation
+│ │ ├── markdown-empty.de.md # German markdown template
+│ │ ├── markdown-empty.en.md # English markdown template
+│ │ ├── markdown-empty.fr.md # French markdown template
+│ │ ├── markdown-empty.it.md # Italian markdown template
+│ │ └── assets/ # Resources used within markdown files
+│ ├── BIM/ # BIM related documentation
+│ │ ├── example.de.md # German BIM documentation
+│ │ ├── example.en.md # English BIM documentation
+│ │ └── assets/ # Resources used within markdown files
+│ ├── Grasshopper/ # Grasshopper related documentation
+│ │ ├── tutorial.de.md # German Grasshopper tutorial
+│ │ ├── tutorial.en.md # English Grasshopper tutorial
+│ │ └── assets/ # Resources used within markdown files
+│ ├── Archicad/ # Archicad related documentation
+│ │ ├── 1 Preperation/ # Preparation section
+│ │ │ ├── topic.de.md # German preparation topic
+│ │ │ └── topic.en.md # English preparation topic
+│ │ ├── 2 Foundation/ # Foundation section
+│ │ │ ├── 2.1 Library/ # Library subsection
+│ │ │ │ ├── gdl-intro.de.md # German GDL introduction
+│ │ │ │ └── gdl-intro.en.md # English GDL introduction
+│ │ └── assets/ # Resources used within markdown files
+│ ├── images/ # Images for site construction (logos, UI elements)
+│ └── styles/ # Custom CSS overrides
+│ └── custom.css # Custom styling
+├── mkdocs.yml # MkDocs configuration file
+└── requirements.txt # Python dependencies
 ```
 
 ### Directory Purposes
@@ -96,24 +118,24 @@ This documentation site is structured as a blog, which means:
     - topic
   ---
   ```
-- Images for blog posts should be placed in `docs/assets/images/`
+- Images for blog posts should be placed in `docs/../assets/`
 - Reference images in posts using relative paths:
   ```markdown
-  ![Image Description](../assets/images/your-image.png)
+  ![Image Description](../assets/your-image.png)
   ```
 
 ## 📝 Writing Documentation
 
 - All documentation is written in Markdown format
 - Place your Markdown files in the `docs/` directory
-- Images and other assets should go in `docs/assets/` or similar
+- Images and other assets should go in `docs/../assets/` or similar
 - The navigation structure is configured in `mkdocs.yml`
 
 ### Writing Relative Paths
 
 - **Markdown**: Use relative paths to reference images and other assets. For example:
   ```markdown
-  ![Image Description](assets/images/your-image.png)
+  ![Image Description](assets/your-image.png)
   ```
 - **HTML**: When using HTML within Markdown files, ensure paths are relative to the Markdown file's location:
   ```html
@@ -142,28 +164,19 @@ This documentation uses Material for MkDocs theme. You can customize:
 
 ## 🚀 Building and Deployment
 
-‼️‼️ __The deployment workflow will automatically push all changes from main/docs/**/*. There is no need to manually build or use gh-deploy, as the plugin will handle the navigation and deployment automatically.__ ‼️‼️
+The documentation site is automatically built and deployed through GitHub Actions workflows. The process is:
 
-To build the documentation site:
-```bash
-mkdocs build
-```
+1. Make changes to documentation files in the `docs/` directory
+2. Create a pull request targeting the `main` branch
+3. Once the PR is merged, GitHub Actions will:
+   - Build the documentation
+   - Deploy it to GitHub Pages
+   - Make it available at https://bimdoer.github.io/bimdonity/
 
-This will create a `site` directory with your built documentation.
-
-For deployment:
-1. The documentation is automatically published to the `bimdo-wiki` branch:
-```bash
-mkdocs gh-deploy --remote-branch bimdo-wiki
-```
-
-This command will:
-- Build your documentation
-- Create or update the `bimdo-wiki` branch
-- Push the built documentation to this branch
-- Make it available through GitHub Pages
-
-Note: Always ensure you're working on the main branch for development and let the deploy command handle the `bimdo-wiki` branch for publishing.
+⚠️ Important Notes:
+- Direct pushes to `main` are blocked - all changes must go through pull requests
+- The site is automatically generated from the `main` branch
+- Manual builds and deployments are not needed
 
 ## 📚 Available Commands
 
