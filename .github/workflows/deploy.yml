@@ -26,6 +26,7 @@ jobs:
           pip install mkdocs
           pip install mkdocs-material  # Install the Material for MkDocs theme
           pip install mkdocs-macros-plugin  # Install the MkDocs Macros plugin
+          pip install mkdocs-static-i18n  # Install the internationalization plugin
 
       - name: Build MkDocs site
         run: mkdocs build --site-dir ./site
