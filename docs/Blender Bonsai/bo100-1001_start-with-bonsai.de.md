@@ -2,6 +2,7 @@
 title: "Erste Schritte mit Bonsai"
 date: "2024-03-20"
 author: "Manuel Emmenegger"
+original: "Deutsch"
 tags:
   - "Blender"
   - "Bonsai"
@@ -128,4 +129,4 @@ Die Benutzung von Section cutaways ist nicht die einfachste Methode und ist noch
 ---
 **Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Autor:** {{ page.meta.author }}
 
-**Schlagwörter:** {{ page.meta.tags | join(', ') }}
+**Schlagwörter:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

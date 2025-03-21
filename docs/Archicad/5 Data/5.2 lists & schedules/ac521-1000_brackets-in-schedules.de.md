@@ -2,6 +2,7 @@
 title: "Klammern in Auswertungen"
 date: "2022-08-02"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Deutsch"
 tags: 
   - "Archicad"
   - "Auswertungen"
@@ -21,4 +22,4 @@ Klammern ( ) in Auswertungslisten sind mächtige Werkzeuge, besonders in Kombina
 ---
 **Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Autor:** {{ page.meta.author }}
 
-**Schlagwörter:** {{ page.meta.tags | join(', ') }}
+**Schlagwörter:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

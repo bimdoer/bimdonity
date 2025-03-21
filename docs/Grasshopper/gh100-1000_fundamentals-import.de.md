@@ -2,6 +2,7 @@
 title: "Grundlagen-Import"
 date: "2021-12-07"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Deutsch"
 tags: 
   - "Archicad"
   - "Freiflaeche"
@@ -41,4 +42,4 @@ Der Schlüssel liegt darin, nur die benötigten Daten gezielt zu importieren und
 ---
 **Veröffentlicht am:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Autor:** {{ page.meta.author }}
 
-**Schlagwörter:** {{ page.meta.tags | join(', ') }}
+**Schlagwörter:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}
