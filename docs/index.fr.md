@@ -1,9 +1,9 @@
 ---
-title: "Welcome"
+title: "Bienvenue"
 ---
 
-# bimdonity - Wissensnetzwerk für BIM!
-Hier beginnt Deine Reise in die Welt von Building Information Modeling. 🌍 Egal, ob Du gerade erst einsteigst oder schon als bimdoer unterwegs bist – bei uns findest Du alles, was Du brauchst, um mit BIM durchzustarten. 🚀 Bei uns ist Wissen frei zugänglich, Open Source und jeder kann seinen Beitrag leisten. 🤝 Gemeinsam schaffen wir eine unabhängige Plattform, die auf offenen Standards basiert. 🔓
+# bimdonity - Réseau de Connaissances pour le BIM !
+C'est ici que commence votre voyage dans le monde du Building Information Modeling. 🌍 Que vous débutiez tout juste ou que vous soyez déjà en route en tant que bimdoer – vous trouverez ici tout ce dont vous avez besoin pour démarrer avec le BIM. 🚀 Avec nous, les connaissances sont librement accessibles, open source, et chacun peut contribuer. 🤝 Ensemble, nous créons une plateforme indépendante basée sur des standards ouverts. 🔓
 
 ## Introduction
 
@@ -13,19 +13,19 @@ Hier beginnt Deine Reise in die Welt von Building Information Modeling. 🌍 Ega
   </iframe>
 </div>
 
-## Hilfreiche Ressourcen
+## Ressources Utiles
 
 [**YouTube:**](https://www.youtube.com/@bimdoer)  
-  Schau dir unseren YouTube-Kanal an, um regelmäßig Videos, Tutorials und Einblicke zu erhalten.  
+  Consultez notre chaîne YouTube pour des vidéos régulières, des tutoriels et des perspectives.  
 
 [**bimdo.ch**](https://bimdo.ch)  
-  Erfahre mehr über uns und unsere Projekte auf unserer Website.  
+  Apprenez-en plus sur nous et nos projets sur notre site web.  
 
 [**bimdoer:**](https://bimdo.ch/bimdoer)  
-  Nutze den vollen Umfang für dein ganzes Team direkt auf der bimdoer-Plattform.  
+  Utilisez toute la gamme pour votre équipe entière directement sur la plateforme bimdoer.  
 
 [**LinkedIn:**](https://www.linkedin.com/in/manuel-emmenegger-45353819b/)  
-  Vernetze dich mit mir auf LinkedIn für berufliche Neuigkeiten und Kontakte.  
+  Connectez-vous avec moi sur LinkedIn pour des nouvelles professionnelles et des contacts.  
 
 [**GitHub:**](https://github.com/bimdoer/)  
-  Finde uns auf GitHub und arbeite direkt mit am opensource-Code.
+  Trouvez-nous sur GitHub et travaillez directement avec le code open-source.

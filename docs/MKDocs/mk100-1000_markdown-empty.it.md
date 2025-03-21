@@ -1,14 +1,15 @@
 ---
 title: "Markdown Vuoto"
-date: "2024-03-20"
-author: "In Costruzione"
+date: "2024-01-17"
+author: "PreName Name | Company"
 tags:
   - "Markdown"
 ---
 
-## In Costruzione
+## Capitoli h2
+### Sottocapitoli h3
 
-Questa pagina è attualmente in costruzione. Il contenuto sarà disponibile a breve.
+Usa questo modello per iniziare un nuovo articolo.
 
 ---
 **Pubblicato il:** {{ page.meta.date }} | **Codice:** {{ page.file.name[:10] }}  | **Autore:** {{ page.meta.author }}

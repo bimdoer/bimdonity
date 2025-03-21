@@ -2,8 +2,8 @@
 title: "Welcome"
 ---
 
-# bimdonity - Wissensnetzwerk für BIM!
-Hier beginnt Deine Reise in die Welt von Building Information Modeling. 🌍 Egal, ob Du gerade erst einsteigst oder schon als bimdoer unterwegs bist – bei uns findest Du alles, was Du brauchst, um mit BIM durchzustarten. 🚀 Bei uns ist Wissen frei zugänglich, Open Source und jeder kann seinen Beitrag leisten. 🤝 Gemeinsam schaffen wir eine unabhängige Plattform, die auf offenen Standards basiert. 🔓
+# bimdonity - Knowledge Network for BIM!
+This is where your journey into the world of Building Information Modeling begins. 🌍 Whether you're just getting started or are already on your way as a bimdoer – here you'll find everything you need to get going with BIM. 🚀 With us, knowledge is freely accessible, open source, and everyone can contribute. 🤝 Together, we create an independent platform based on open standards. 🔓
 
 ## Introduction
 
@@ -13,19 +13,19 @@ Hier beginnt Deine Reise in die Welt von Building Information Modeling. 🌍 Ega
   </iframe>
 </div>
 
-## Hilfreiche Ressourcen
+## Helpful Resources
 
 [**YouTube:**](https://www.youtube.com/@bimdoer)  
-  Schau dir unseren YouTube-Kanal an, um regelmäßig Videos, Tutorials und Einblicke zu erhalten.  
+  Check out our YouTube channel for regular videos, tutorials, and insights.  
 
 [**bimdo.ch**](https://bimdo.ch)  
-  Erfahre mehr über uns und unsere Projekte auf unserer Website.  
+  Learn more about us and our projects on our website.  
 
 [**bimdoer:**](https://bimdo.ch/bimdoer)  
-  Nutze den vollen Umfang für dein ganzes Team direkt auf der bimdoer-Plattform.  
+  Use the full range for your entire team directly on the bimdoer platform.  
 
 [**LinkedIn:**](https://www.linkedin.com/in/manuel-emmenegger-45353819b/)  
-  Vernetze dich mit mir auf LinkedIn für berufliche Neuigkeiten und Kontakte.  
+  Connect with me on LinkedIn for professional news and contacts.  
 
 [**GitHub:**](https://github.com/bimdoer/)  
-  Finde uns auf GitHub und arbeite direkt mit am opensource-Code.
+  Find us on GitHub and work directly with the open-source code.

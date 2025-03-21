@@ -1,16 +1,22 @@
 ---
-title: "Crochets dans les Nomenclatures"
-date: "2024-03-20"
-author: "En Construction"
-tags:
+title: "Parenthèses dans les Nomenclatures"
+date: "2022-08-02"
+author: "Manuel Emmenegger | bimdo.ch"
+tags: 
   - "Archicad"
   - "Nomenclatures"
-  - "Crochets"
+  - "Listes"
+  - "Métré"
 ---
 
-## En Construction
+Les parenthèses ( ) dans les nomenclatures sont des outils puissants, particulièrement en combinaison avec les opérateurs logiques "et" & "ou". Les règles suivent les lois mathématiques des parenthèses - ceux qui les comprennent peuvent créer des nomenclatures précises et fiables. Avec cette connaissance, vos listes fourniront des quantités correctes à 100%.
 
-Cette page est actuellement en construction. Le contenu sera disponible prochainement.
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/XTo-i3R8rE0?si=Q3uRlfwCy8B0EEdQ" 
+          allowfullscreen>
+  </iframe>
+</div>
+
 
 ---
 **Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Auteur:** {{ page.meta.author }}

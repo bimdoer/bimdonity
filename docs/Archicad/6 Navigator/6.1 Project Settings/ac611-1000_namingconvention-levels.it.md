@@ -1,17 +1,23 @@
 ---
-title: "Convenzione di Denominazione per i Livelli"
-date: "2024-03-20"
-author: "In Costruzione"
-tags:
+title: "Convenzioni di Denominazione dei Livelli"
+date: "2022-08-09"
+author: "Manuel Emmenegger | bimdo.ch"
+tags: 
   - "Archicad"
-  - "Impostazioni Progetto"
-  - "Convenzione di Denominazione"
-  - "Livelli"
+  - "BIM"
+  - "Struttura dei Piani" 
+  - "IFC"
+  - "Convenzioni di Denominazione"
 ---
 
-## In Costruzione
+Le convenzioni di denominazione sono certamente un argomento che lascia spazio a molte discussioni, e questo inizia con le designazioni dei livelli. Tuttavia, convenzioni di denominazione coerenti e designazioni significative dei livelli sono la base per l'automazione. Naturalmente, le convenzioni di denominazione possono essere ampiamente standardizzate e non è necessario rinominare manualmente ogni file. Ovviamente, ci troviamo sempre di fronte a conflitti tra convenzioni interne ed esterne e le loro interdipendenze. In questo video, esaminiamo alcune possibilità e i caratteri che dovresti assolutamente evitare.
 
-Questa pagina è attualmente in costruzione. Il contenuto sarà disponibile a breve.
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/zvVxTgvqwis?si=1iAh8xzd1GF-R9Rh" 
+          allowfullscreen>
+  </iframe>
+</div>
+
 
 ---
 **Pubblicato il:** {{ page.meta.date }} | **Codice:** {{ page.file.name[:10] }}  | **Autore:** {{ page.meta.author }}

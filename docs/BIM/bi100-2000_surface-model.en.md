@@ -1,15 +1,19 @@
 ---
-title: "Surface Model"
-date: "2024-03-20"
-author: "Under Construction"
-tags:
+title: "Surface Model SEM"
+date: "2022-04-04"
+author: "Manuel Emmenegger | bimdo.ch"
+tags: 
+  - "SEM"
+  - "Export" 
+  - "IFC"
+  - "Quality Control"
   - "BIM"
-  - "Surface Model"
+  - "Structural Engineer"
 ---
 
-## Under Construction
+When defining sloped surfaces, such as ramps, concrete slabs with a gradient, or sloped parapets, it is helpful for the exchange process to share what is known as a surface model. This way, everyone works with the same subtraction bodies, ensuring the congruence of the models. (SEM - Structural Engineering Model)
 
-This page is currently under construction. Content will be available soon.
+[![Surface Model](assets/bi100-2000_01_surface-model.png)](assets/bi100-2000_01_surface-model.png)
 
 ---
 **Published on:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Author:** {{ page.meta.author }}
