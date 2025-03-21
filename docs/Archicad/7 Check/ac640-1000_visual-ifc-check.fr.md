@@ -2,6 +2,7 @@
 title: "Vérification Visuelle IFC"
 date: "2022-04-04"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Allemand"
 tags: 
   - "Archicad"
   - "Export" 
@@ -196,4 +197,4 @@ Un exemple pratique : En fusionnant environ 50 fichiers IFC de différentes éta
 ---
 **Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Auteur:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }}  | **Original:** {{ page.meta.original }}

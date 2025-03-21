@@ -2,6 +2,7 @@
 title: "Iniziare con Bonsai"
 date: "2024-03-20"
 author: "Manuel Emmenegger"
+original: "Tedesco"
 tags:
   - "Blender"
   - "Bonsai"
@@ -125,4 +126,4 @@ L'utilizzo delle sezioni di taglio non è il metodo più facile ed è ancora un 
 ---
 **Pubblicato il:** {{ page.meta.date }} | **Codice:** {{ page.file.name[:10] }}  | **Autore:** {{ page.meta.author }}
 
-**Tag:** {{ page.meta.tags | join(', ') }} 
+**Tag:** {{ page.meta.tags | join(', ') }} | **Originale:** {{ page.meta.original }}

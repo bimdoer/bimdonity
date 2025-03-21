@@ -2,6 +2,7 @@
 title: "Parenthèses dans les Nomenclatures"
 date: "2022-08-02"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Allemand"
 tags: 
   - "Archicad"
   - "Nomenclatures"
@@ -21,4 +22,4 @@ Les parenthèses ( ) dans les nomenclatures sont des outils puissants, particuli
 ---
 **Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Auteur:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

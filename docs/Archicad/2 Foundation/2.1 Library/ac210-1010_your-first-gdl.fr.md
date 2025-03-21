@@ -2,6 +2,7 @@
 title: "Votre Premier GDL"
 date: "2025-03-15"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Allemand"
 tags:
   - "Archicad"
   - "GDL"
@@ -324,4 +325,4 @@ La commande [poly2_B](https://www.selfgdl.de/2d-elemente-2/polygone/poly2_b/) of
 
 **Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Auteur:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

@@ -2,6 +2,7 @@
 title: "Conventions de Nommage des Étages"
 date: "2022-08-09"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Allemand"
 tags: 
   - "Archicad"
   - "BIM"
@@ -22,4 +23,4 @@ Les conventions de nommage sont certainement un sujet qui prête à beaucoup de 
 ---
 **Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Auteur:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

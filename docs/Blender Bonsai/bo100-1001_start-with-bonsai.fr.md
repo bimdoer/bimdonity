@@ -2,6 +2,7 @@
 title: "Débuter avec Bonsai"
 date: "2024-03-20"
 author: "Manuel Emmenegger"
+original: "Allemand"
 tags:
   - "Blender"
   - "Bonsai"
@@ -125,4 +126,4 @@ L'utilisation des coupes de section n'est pas la méthode la plus facile et est 
 ---
 **Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Auteur:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

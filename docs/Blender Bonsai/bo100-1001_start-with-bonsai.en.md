@@ -2,6 +2,7 @@
 title: "Getting Started with Bonsai"
 date: "2024-03-20"
 author: "Manuel Emmenegger"
+original: "German"
 tags:
   - "Blender"
   - "Bonsai"
@@ -125,4 +126,4 @@ Using section cutaways is not the easiest method and is still somewhat unstable.
 ---
 **Published on:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Author:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }}
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

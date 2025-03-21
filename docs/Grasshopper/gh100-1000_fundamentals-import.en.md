@@ -2,6 +2,7 @@
 title: "Fundamentals Import"
 date: "2021-12-07"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "German"
 tags: 
   - "Archicad"
   - "Open Space"
@@ -41,4 +42,4 @@ The key is to import only the required data in a targeted manner and position it
 ---
 **Published on:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Author:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

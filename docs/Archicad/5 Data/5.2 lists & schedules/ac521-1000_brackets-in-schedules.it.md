@@ -2,6 +2,7 @@
 title: "Parentesi negli Abachi"
 date: "2022-08-02"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Tedesco"
 tags: 
   - "Archicad"
   - "Abachi"
@@ -21,4 +22,4 @@ Le parentesi ( ) negli abachi sono strumenti potenti, specialmente in combinazio
 ---
 **Pubblicato il:** {{ page.meta.date }} | **Codice:** {{ page.file.name[:10] }}  | **Autore:** {{ page.meta.author }}
 
-**Tag:** {{ page.meta.tags | join(', ') }} 
+**Tag:** {{ page.meta.tags | join(', ') }} | **Originale:** {{ page.meta.original }}

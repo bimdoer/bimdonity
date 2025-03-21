@@ -2,6 +2,7 @@
 title: "4 BIM Concepts"
 date: "2022-03-17"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "German"
 tags: 
   - "BigBIM"
   - "BIM"
@@ -27,4 +28,4 @@ The differences and relationships are explained using concrete examples.
 ---
 **Published on:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Author:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

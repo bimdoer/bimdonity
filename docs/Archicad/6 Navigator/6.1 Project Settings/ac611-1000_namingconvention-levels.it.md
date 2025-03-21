@@ -2,6 +2,7 @@
 title: "Convenzioni di Denominazione dei Livelli"
 date: "2022-08-09"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Tedesco"
 tags: 
   - "Archicad"
   - "BIM"
@@ -22,4 +23,4 @@ Le convenzioni di denominazione sono certamente un argomento che lascia spazio a
 ---
 **Pubblicato il:** {{ page.meta.date }} | **Codice:** {{ page.file.name[:10] }}  | **Autore:** {{ page.meta.author }}
 
-**Tag:** {{ page.meta.tags | join(', ') }} 
+**Tag:** {{ page.meta.tags | join(', ') }} | **Originale:** {{ page.meta.original }}

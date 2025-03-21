@@ -2,6 +2,7 @@
 title: "Getting Started with GDL"
 date: "2025-03-15"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "German"
 tags:
   - "Archicad"
   - "GDL"
@@ -67,4 +68,4 @@ Additionally, exchanging ideas in forums (such as [ArchiCAD-Talk](https://archic
 
 **Published on:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Author:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }}
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

@@ -2,6 +2,7 @@
 title: "Modèle de Surface MTB"
 date: "2022-04-04"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Allemand"
 tags: 
   - "MTB"
   - "Export" 
@@ -18,4 +19,4 @@ Lors de la définition de surfaces inclinées, comme des rampes, des dalles en b
 ---
 **Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Auteur:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

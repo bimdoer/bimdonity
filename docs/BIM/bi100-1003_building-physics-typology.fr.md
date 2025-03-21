@@ -2,6 +2,7 @@
 title: "Typologie de la Physique du Bâtiment"
 date: "2022-09-14"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Allemand"
 tags: 
   - "Physique du Bâtiment"
   - "BIM"
@@ -66,4 +67,4 @@ La typologie existait avant le BIM - même un plan marqué regroupe des élémen
 ---
 **Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Auteur:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

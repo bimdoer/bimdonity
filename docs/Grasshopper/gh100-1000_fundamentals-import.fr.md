@@ -2,6 +2,7 @@
 title: "Importation des Données Fondamentales"
 date: "2021-12-07"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Allemand"
 tags: 
   - "Archicad"
   - "Espace Ouvert"
@@ -41,4 +42,4 @@ La clé est d'importer uniquement les données requises de manière ciblée et d
 ---
 **Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Auteur:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

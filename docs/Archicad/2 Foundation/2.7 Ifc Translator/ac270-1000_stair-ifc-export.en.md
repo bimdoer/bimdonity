@@ -2,6 +2,7 @@
 title: "IFC Stair Structure"
 date: "2022-07-26"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Deutsch"
 tags: 
   - "Archicad"
   - "Bimcollab"
@@ -25,4 +26,4 @@ When exchanging with the structural engineer, it's important to reduce the archi
 ---
 **Published on:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Author:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }} 

@@ -2,6 +2,7 @@
 title: "Modèles Markdown"
 date: "2024-01-17"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Allemand"
 tags:
   - "Markdown"
   - "Modèle"
@@ -19,6 +20,7 @@ Utilisez toujours un en-tête, le titre est utilisé pour la navigation et le ti
 title: "Modèles Markdown"
 date: "2024-01-17"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Allemand"
 tags:
   - "Markdown"
   - "Modèle"
@@ -218,4 +220,10 @@ Utilisez la fonction `print()` pour afficher la sortie en Python.
 ---
 **Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Auteur:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}
+
+```
+**Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Auteur:** {{ page.meta.author }}
+
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}
+```

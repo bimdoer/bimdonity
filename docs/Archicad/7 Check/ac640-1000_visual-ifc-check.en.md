@@ -2,6 +2,7 @@
 title: "Visual IFC Check"
 date: "2022-04-04"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "German"
 tags:
   - "Archicad"
   - "Export"
@@ -196,4 +197,4 @@ A practical example: By merging about 50 IFC files from different project stages
 ---
 **Published on:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Author:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }}  | **Original:** {{ page.meta.original }}

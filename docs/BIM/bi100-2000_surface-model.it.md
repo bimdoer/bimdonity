@@ -2,6 +2,7 @@
 title: "Modello di Superficie MSS"
 date: "2022-04-04"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Tedesco"
 tags: 
   - "MSS"
   - "Export" 
@@ -18,4 +19,4 @@ Nella definizione di superfici inclinate, come rampe, solette in calcestruzzo in
 ---
 **Pubblicato il:** {{ page.meta.date }} | **Codice:** {{ page.file.name[:10] }}  | **Autore:** {{ page.meta.author }}
 
-**Tag:** {{ page.meta.tags | join(', ') }} 
+**Tag:** {{ page.meta.tags | join(', ') }} | **Originale:** {{ page.meta.original }}

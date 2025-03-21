@@ -2,6 +2,7 @@
 title: "BIM dans le Contexte VDC"
 date: "2022-06-28"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Allemand"
 tags:
   - "BIM"
   - "VDC"
@@ -24,4 +25,4 @@ Grâce à cette approche holistique, des valeurs ajoutées concrètes peuvent ê
 ---
 **Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Auteur:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

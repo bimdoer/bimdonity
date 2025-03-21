@@ -2,6 +2,7 @@
 title: "Structure d'Escalier IFC"
 date: "2022-07-26"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Allemand"
 tags: 
   - "Archicad"
   - "Bimcollab"
@@ -25,4 +26,4 @@ Lors des échanges avec l'ingénieur structure, il est important de réduire le 
 ---
 **Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Auteur:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }} 

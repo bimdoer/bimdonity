@@ -2,6 +2,7 @@
 title: "Struttura Scale IFC"
 date: "2022-07-26"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Deutsch"
 tags: 
   - "Archicad"
   - "Bimcollab"
@@ -25,4 +26,4 @@ Nello scambio con l'ingegnere strutturale, è importante ridurre il modello arch
 ---
 **Pubblicato il:** {{ page.meta.date }} | **Codice:** {{ page.file.name[:10] }}  | **Autore:** {{ page.meta.author }}
 
-**Tag:** {{ page.meta.tags | join(', ') }} 
+**Tag:** {{ page.meta.tags | join(', ') }} | **Originale:** {{ page.meta.original }} 

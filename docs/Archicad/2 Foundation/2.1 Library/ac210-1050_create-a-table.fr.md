@@ -2,6 +2,7 @@
 title: "Créer une Table"
 date: "2025-03-15"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Allemand"
 tags:
   - "Archicad"
   - "GDL"
@@ -74,4 +75,4 @@ Dans cette vidéo, nous découvrons les paramètres graphiques. Nous rendons les
 ---
 **Publié le:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Auteur:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

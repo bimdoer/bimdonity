@@ -2,6 +2,7 @@
 title: "BIM nel Contesto VDC"
 date: "2022-06-28"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Tedesco"
 tags:
   - "BIM"
   - "VDC"
@@ -24,4 +25,4 @@ Attraverso questo approccio olistico, i valori aggiunti concreti possono essere 
 ---
 **Pubblicato il:** {{ page.meta.date }} | **Codice:** {{ page.file.name[:10] }}  | **Autore:** {{ page.meta.author }}
 
-**Tag:** {{ page.meta.tags | join(', ') }} 
+**Tag:** {{ page.meta.tags | join(', ') }} | **Originale:** {{ page.meta.original }}

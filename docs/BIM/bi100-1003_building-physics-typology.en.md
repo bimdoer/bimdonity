@@ -2,6 +2,7 @@
 title: "Building Physics Typology"
 date: "2022-09-14"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "German"
 tags: 
   - "Building Physics"
   - "BIM"
@@ -66,4 +67,4 @@ Typology existed before BIM - even a marked plan groups elements. The advantage 
 ---
 **Published on:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Author:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

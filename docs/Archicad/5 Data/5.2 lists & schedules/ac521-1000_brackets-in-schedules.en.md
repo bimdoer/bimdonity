@@ -2,6 +2,7 @@
 title: "Brackets in Schedules"
 date: "2022-08-02"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "German"
 tags: 
   - "Archicad"
   - "Schedules"
@@ -21,4 +22,4 @@ Brackets ( ) in schedules are powerful tools, especially when combined with logi
 ---
 **Published on:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Author:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

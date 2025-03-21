@@ -2,6 +2,7 @@
 title: "Tipologia della Fisica degli Edifici"
 date: "2022-09-14"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Tedesco"
 tags: 
   - "Fisica degli Edifici"
   - "BIM"
@@ -66,4 +67,4 @@ La tipologia esisteva prima del BIM - anche un piano contrassegnato raggruppa el
 ---
 **Pubblicato il:** {{ page.meta.date }} | **Codice:** {{ page.file.name[:10] }}  | **Autore:** {{ page.meta.author }}
 
-**Tag:** {{ page.meta.tags | join(', ') }} 
+**Tag:** {{ page.meta.tags | join(', ') }} | **Originale:** {{ page.meta.original }}

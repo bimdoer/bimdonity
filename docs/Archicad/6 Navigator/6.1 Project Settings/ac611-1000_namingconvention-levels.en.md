@@ -2,6 +2,7 @@
 title: "Level Naming Conventions"
 date: "2022-08-09"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "German"
 tags: 
   - "Archicad"
   - "BIM"
@@ -22,4 +23,4 @@ Naming conventions is certainly a topic with a lot of room for discussion, and t
 ---
 **Published on:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Author:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

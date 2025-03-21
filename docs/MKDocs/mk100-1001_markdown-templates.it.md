@@ -2,6 +2,7 @@
 title: "Template Markdown"
 date: "2024-01-17"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Tedesco"
 tags:
   - "Markdown"
   - "Template"
@@ -19,6 +20,7 @@ Utilizzare sempre un'intestazione, il titolo viene utilizzato per la navigazione
 title: "Template Markdown"
 date: "2024-01-17"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Tedesco"
 tags:
   - "Markdown"
   - "Template"
@@ -218,4 +220,10 @@ Utilizzare la funzione `print()` per visualizzare l'output in Python.
 ---
 **Pubblicato il:** {{ page.meta.date }} | **Codice:** {{ page.file.name[:10] }}  | **Autore:** {{ page.meta.author }}
 
-**Tag:** {{ page.meta.tags | join(', ') }} 
+**Tag:** {{ page.meta.tags | join(', ') }} | **Originale:** {{ page.meta.original }}
+
+```
+**Pubblicato il:** {{ page.meta.date }} | **Codice:** {{ page.file.name[:10] }}  | **Autore:** {{ page.meta.author }}
+
+**Tag:** {{ page.meta.tags | join(', ') }} | **Originale:** {{ page.meta.original }}
+```

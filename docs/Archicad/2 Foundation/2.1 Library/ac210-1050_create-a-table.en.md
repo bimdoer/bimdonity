@@ -2,6 +2,7 @@
 title: "Create a Table"
 date: "2025-03-15"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "German"
 tags: 
   - "Archicad"
   - "GDL"
@@ -73,4 +74,4 @@ In this video, we learn about graphical parameters. We make surfaces, line types
 ---
 **Published on:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Author:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

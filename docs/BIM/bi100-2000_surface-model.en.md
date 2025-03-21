@@ -2,6 +2,7 @@
 title: "Surface Model SEM"
 date: "2022-04-04"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "German"
 tags: 
   - "SEM"
   - "Export" 
@@ -18,4 +19,4 @@ When defining sloped surfaces, such as ramps, concrete slabs with a gradient, or
 ---
 **Published on:** {{ page.meta.date }} | **Code:** {{ page.file.name[:10] }}  | **Author:** {{ page.meta.author }}
 
-**Tags:** {{ page.meta.tags | join(', ') }} 
+**Tags:** {{ page.meta.tags | join(', ') }} | **Original:** {{ page.meta.original }}

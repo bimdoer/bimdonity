@@ -2,6 +2,7 @@
 title: "Creare una Tabella"
 date: "2025-03-15"
 author: "Manuel Emmenegger | bimdo.ch"
+original: "Tedesco"
 tags:
   - "Archicad"
   - "GDL"
@@ -74,4 +75,4 @@ In questo video, impariamo i parametri grafici. Rendiamo disponibili come parame
 ---
 **Pubblicato il:** {{ page.meta.date }} | **Codice:** {{ page.file.name[:10] }}  | **Autore:** {{ page.meta.author }}
 
-**Tag:** {{ page.meta.tags | join(', ') }} 
+**Tag:** {{ page.meta.tags | join(', ') }} | **Originale:** {{ page.meta.original }}
