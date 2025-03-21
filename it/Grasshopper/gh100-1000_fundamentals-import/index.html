@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
-        <meta name="author" content="In Costruzione">
+        <meta name="author" content="Manuel Emmenegger | bimdo.ch">
       
       
         <link rel="canonical" href="https://bimdoer.github.io/bimdonity/it/Grasshopper/gh100-1000_fundamentals-import/">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Importazione dei Fondamentali - bimdonity</title>
+        <title>Importazione dei Dati Fondamentali - bimdonity</title>
       
     
     
@@ -77,11 +77,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#in-costruzione" class="md-skip">
-          Vai al contenuto
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -113,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Importazione dei Fondamentali
+              Importazione dei Dati Fondamentali
             
           </span>
         </div>
@@ -273,7 +268,7 @@
         
   
   <span class="md-ellipsis">
-    Welcome
+    Benvenuto
     
   </span>
   
@@ -578,7 +573,7 @@
         
   
   <span class="md-ellipsis">
-    Esportazione IFC delle Scale
+    Struttura Scale IFC
     
   </span>
   
@@ -930,7 +925,7 @@
         
   
   <span class="md-ellipsis">
-    Convenzione di Denominazione per i Livelli
+    Convenzioni di Denominazione dei Livelli
     
   </span>
   
@@ -1077,7 +1072,7 @@
         
   
   <span class="md-ellipsis">
-    BIM e VDC
+    BIM nel Contesto VDC
     
   </span>
   
@@ -1143,7 +1138,7 @@
         
   
   <span class="md-ellipsis">
-    GUID
+    GUID - Identificatore Univoco Globale
     
   </span>
   
@@ -1165,7 +1160,7 @@
         
   
   <span class="md-ellipsis">
-    Modello di Superficie
+    Modello di Superficie MSS
     
   </span>
   
@@ -1300,54 +1295,16 @@
       
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Importazione dei Fondamentali
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    Importazione dei Fondamentali
+    Importazione dei Dati Fondamentali
     
   </span>
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Indice">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Indice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#in-costruzione" class="md-nav__link">
-    <span class="md-ellipsis">
-      In Costruzione
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -1466,23 +1423,6 @@
   
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Indice
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#in-costruzione" class="md-nav__link">
-    <span class="md-ellipsis">
-      In Costruzione
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1497,13 +1437,33 @@
 
 
 
-  <h1>Importazione dei Fondamentali</h1>
+  <h1>Importazione dei Dati Fondamentali</h1>
 
-<h2 id="in-costruzione">In Costruzione</h2>
-<p>Questa pagina è attualmente in costruzione. Il contenuto sarà disponibile a breve.</p>
+<p>L'acquisizione e l'elaborazione dei dati di base per gli studi architettonici possono richiedere molto tempo. Diverse fonti di dati, formati e grandi quantità di dati rendono difficile un flusso di lavoro efficiente. Con la giusta metodologia, tuttavia, questo processo può essere notevolmente semplificato.</p>
+<p>La chiave è importare solo i dati necessari in modo mirato e posizionarli direttamente al punto zero del progetto. I seguenti elementi servono come base:</p>
+<ul>
+<li>DWG catastale (LV95)</li>
+<li><a href="https://www.swisstopo.admin.ch/de/geodata/landscape/buildings3d2.html">Dati degli edifici da SwissTopo</a>  </li>
+<li><a href="https://www.swisstopo.admin.ch/de/geodata/height/alti3d.html">Dati XYZ del terreno da SwissTopo</a></li>
+</ul>
+<p><strong>Il workflow:</strong></p>
+<ol>
+<li>Importare i dati catastali e degli edifici in Rhino</li>
+<li>Importare i dati XYZ del terreno tramite Grasshopper</li>
+<li>Collegare tutti i dati in Grasshopper</li>
+<li>Limitare all'area rilevante</li>
+<li>Definire l'offset rispetto al punto zero</li>
+<li>Importare in ArchiCAD tramite la connessione Grasshopper</li>
+</ol>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/irmRQJ-8-YA?si=AUGPiorBAVAcIzcQ" 
+          allowfullscreen>
+  </iframe>
+</div>
+
 <hr />
-<p><strong>Pubblicato il:</strong> 2024-03-20 | <strong>Codice:</strong> gh100-1000  | <strong>Autore:</strong> In Costruzione</p>
-<p><strong>Tag:</strong> Grasshopper, Importazione </p>
+<p><strong>Pubblicato il:</strong> 2021-12-07 | <strong>Codice:</strong> gh100-1000  | <strong>Autore:</strong> Manuel Emmenegger | bimdo.ch</p>
+<p><strong>Tag:</strong> Archicad, Spazio Aperto, Grasshopper, Rhino, Studio, Swisstopo, Terreno, Workflow, xyz </p>
 
 
 

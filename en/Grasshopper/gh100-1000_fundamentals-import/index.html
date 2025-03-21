@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
-        <meta name="author" content="Under Construction">
+        <meta name="author" content="Manuel Emmenegger | bimdo.ch">
       
       
         <link rel="canonical" href="https://bimdoer.github.io/bimdonity/en/Grasshopper/gh100-1000_fundamentals-import/">
@@ -76,11 +76,6 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
-      
-        
-        <a href="#under-construction" class="md-skip">
-          Skip to content
-        </a>
       
     </div>
     <div data-md-component="announce">
@@ -578,7 +573,7 @@
         
   
   <span class="md-ellipsis">
-    Stair IFC Export
+    IFC Stair Structure
     
   </span>
   
@@ -930,7 +925,7 @@
         
   
   <span class="md-ellipsis">
-    Naming Convention for Levels
+    Level Naming Conventions
     
   </span>
   
@@ -1077,7 +1072,7 @@
         
   
   <span class="md-ellipsis">
-    BIM and VDC
+    BIM in the Context of VDC
     
   </span>
   
@@ -1143,7 +1138,7 @@
         
   
   <span class="md-ellipsis">
-    GUID
+    GUID - Globally Unique Identifier
     
   </span>
   
@@ -1165,7 +1160,7 @@
         
   
   <span class="md-ellipsis">
-    Surface Model
+    Surface Model SEM
     
   </span>
   
@@ -1300,18 +1295,6 @@
       
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Fundamentals Import
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1322,32 +1305,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#under-construction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Under Construction
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -1466,23 +1423,6 @@
   
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#under-construction" class="md-nav__link">
-    <span class="md-ellipsis">
-      Under Construction
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -1499,11 +1439,31 @@
 
   <h1>Fundamentals Import</h1>
 
-<h2 id="under-construction">Under Construction</h2>
-<p>This page is currently under construction. Content will be available soon.</p>
+<p>Acquiring and processing base data for architectural studies can be time-consuming. Various data sources, formats, and large amounts of data make an efficient workflow difficult. With the right methodology, however, this process can be significantly simplified.</p>
+<p>The key is to import only the required data in a targeted manner and position it directly at the project zero point. The following serve as a foundation:</p>
+<ul>
+<li>Cadastral DWG (LV95)</li>
+<li><a href="https://www.swisstopo.admin.ch/de/geodata/landscape/buildings3d2.html">Building data from SwissTopo</a>  </li>
+<li><a href="https://www.swisstopo.admin.ch/de/geodata/height/alti3d.html">Terrain XYZ data from SwissTopo</a></li>
+</ul>
+<p><strong>The workflow:</strong></p>
+<ol>
+<li>Import the cadastral and building data into Rhino</li>
+<li>Import the terrain XYZ data via Grasshopper</li>
+<li>Connect all data in Grasshopper</li>
+<li>Limit to the relevant area</li>
+<li>Define the offset to the zero point</li>
+<li>Import into ArchiCAD via the Grasshopper connection</li>
+</ol>
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/irmRQJ-8-YA?si=AUGPiorBAVAcIzcQ" 
+          allowfullscreen>
+  </iframe>
+</div>
+
 <hr />
-<p><strong>Published on:</strong> 2024-03-20 | <strong>Code:</strong> gh100-1000  | <strong>Author:</strong> Under Construction</p>
-<p><strong>Tags:</strong> Grasshopper, Import </p>
+<p><strong>Published on:</strong> 2021-12-07 | <strong>Code:</strong> gh100-1000  | <strong>Author:</strong> Manuel Emmenegger | bimdo.ch</p>
+<p><strong>Tags:</strong> Archicad, Open Space, Grasshopper, Rhino, Study, Swisstopo, Terrain, Workflow, xyz </p>
 
 
 
