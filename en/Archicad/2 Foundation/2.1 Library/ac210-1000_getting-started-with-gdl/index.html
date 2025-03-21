@@ -7,7 +7,7 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
-        <meta name="author" content="Under Construction">
+        <meta name="author" content="Manuel Emmenegger | bimdo.ch">
       
       
         <link rel="canonical" href="https://bimdoer.github.io/bimdonity/en/Archicad/2%20Foundation/2.1%20Library/ac210-1000_getting-started-with-gdl/">
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#under-construction" class="md-skip">
+        <a href="#gdl-in-archicad" class="md-skip">
           Skip to content
         </a>
       
@@ -514,9 +514,51 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#under-construction" class="md-nav__link">
+  <a href="#gdl-in-archicad" class="md-nav__link">
     <span class="md-ellipsis">
-      Under Construction
+      GDL in Archicad
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GDL in Archicad">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-gdl" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is GDL?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advantages-of-gdl" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advantages of GDL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#first-steps-in-gdl" class="md-nav__link">
+    <span class="md-ellipsis">
+      First Steps in GDL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#useful-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Useful Resources
     </span>
   </a>
   
@@ -1477,9 +1519,51 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#under-construction" class="md-nav__link">
+  <a href="#gdl-in-archicad" class="md-nav__link">
     <span class="md-ellipsis">
-      Under Construction
+      GDL in Archicad
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GDL in Archicad">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-gdl" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is GDL?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#advantages-of-gdl" class="md-nav__link">
+    <span class="md-ellipsis">
+      Advantages of GDL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#first-steps-in-gdl" class="md-nav__link">
+    <span class="md-ellipsis">
+      First Steps in GDL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#useful-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Useful Resources
     </span>
   </a>
   
@@ -1503,10 +1587,57 @@
 
   <h1>Getting Started with GDL</h1>
 
-<h2 id="under-construction">Under Construction</h2>
-<p>This page is currently under construction. Content will be available soon.</p>
+<h2 id="gdl-in-archicad">GDL in Archicad</h2>
+<p>In this article, we answer frequently asked questions about the Geometric Description Language (GDL) – the scripting language that ArchiCAD uses to create parametric objects. We explain what GDL is, why it's worth learning GDL, and how to take your first steps in the GDL world.</p>
 <hr />
-<p><strong>Published on:</strong> 2024-03-20 | <strong>Code:</strong> ac210-1000  | <strong>Author:</strong> Under Construction</p>
+<h3 id="what-is-gdl">What is GDL?</h3>
+<p>GDL (Geometric Description Language) is the scripting language that ArchiCAD libraries use to define parametric objects. Unlike a simple "Hello World", GDL delivers practical results after just a few lines of code. Complex tools such as windows or doors are not created as static elements, but as dynamic, script-based objects.<br />
+In ArchiCAD, GDL is packaged in so-called LCF containers (with the GSM file format).</p>
+<h3 id="advantages-of-gdl">Advantages of GDL</h3>
+<ul>
+<li><strong>Quick Start:</strong> Even simple scripts show visual results, which is motivating.  </li>
+<li><strong>Understanding Parametrics:</strong> With GDL, you gain a fundamental understanding of parametric modeling in CAD software.  </li>
+<li><strong>Practical Applications:</strong> You can optimize daily workflows since many objects and tools in ArchiCAD are based on GDL.  </li>
+<li><strong>Visual Scripting:</strong> Newer tools like <a href="https://graphisoft.com/downloads/param-o">Param-O</a> enable a visual approach, making it easier to get started.</li>
+</ul>
+<hr />
+<h2 id="first-steps-in-gdl">First Steps in GDL</h2>
+<p>A good starting point is to focus on a simple 2D and 3D script. In the Swiss version of ArchiCAD, you'll find the GDL editor under <em>File → GDL Objects → Create GDL Objects</em>.   </p>
+<ul>
+<li><strong>Tip:</strong> At first, limit yourself to basic commands, such as creating a cuboid with the <code>block</code> command.  </li>
+<li><strong>Visualization:</strong> Use the 2D and 3D views to immediately check the effects of your script.
+<a href="../../../../../Archicad/2%20Foundation/2.1%20Library/assets/ac210-1000_01_Overview-Editor.png"><img alt="Overview-Editor" src="../../../../../Archicad/2%20Foundation/2.1%20Library/assets/ac210-1000_01_Overview-Editor.png" /></a></li>
+</ul>
+<hr />
+<h2 id="useful-resources">Useful Resources</h2>
+<ul>
+<li>The <a href="https://help.graphisoft.com/AC/24/ENG/GDL.pdf">GDL Reference Manual</a> offers a comprehensive overview of commands.
+<a href="../../../../../Archicad/2%20Foundation/2.1%20Library/assets/ac210-1000_02_Reference-Manual.png"><img alt="Reference-Manual" src="../../../../../Archicad/2%20Foundation/2.1%20Library/assets/ac210-1000_02_Reference-Manual.png" /></a></li>
+<li>Sites like <a href="https://www.selfgdl.de/">SelfGDL.de</a> and the <a href="https://issuu.com/dnicholsoncole/docs/gdlcookbook3_01">GDL Cookbook</a> by David Nicholson-Cole provide practical examples.</li>
+</ul>
+<p><strong>Additional Resources:</strong> <br />
+Here's a compilation of helpful platforms where you can find ready-made GDL elements and further information:   </p>
+<ul>
+<li><a href="https://www.idc.ch/archicad/ueber-archicad/zusatzprodukte/zusatzbibliotheken/">idc.ch</a>   </li>
+<li><a href="https://www.bimobject.com/de-ch/product?sort=trending">bimobject.com</a>    </li>
+<li><a href="https://bimcomponents.com/">bimcomponents.com</a>   </li>
+<li><a href="https://cadswift.com.au/">cadswift.com.au</a>   </li>
+<li><a href="https://www.arroway-textures.ch/">arroway-textures.ch</a>   </li>
+<li><a href="https://www.mtextur.com/">mtextur.com</a>   </li>
+<li><a href="http://bimbakery.co/">bimbakery.co</a>    </li>
+<li><a href="https://www.turbosquid.com/">turbosquid.com</a>   </li>
+<li><a href="https://www.b-prisma.de/">b-prisma.de</a>   </li>
+<li><a href="http://www.concepsysbim.com/">concepsysbim.com</a>    </li>
+<li><a href="https://www.prodlib.com/?lang=en">prodlib.com</a>   </li>
+<li><a href="https://3dwarehouse.sketchup.com/">3dwarehouse.sketchup.com</a>   </li>
+<li><a href="https://archive3d.net/">archive3d.net</a>   </li>
+<li><a href="https://www.velux.at/fachkunden/tools-technik/3d-bim-objekte">velux.at</a>    </li>
+<li><a href="https://www.eptar.hu/">eptar.hu</a>   </li>
+<li><a href="http://www.poliigon.com/">poliigon.com</a>    </li>
+</ul>
+<p>Additionally, exchanging ideas in forums (such as <a href="https://archicad-talk.graphisoft.com/">ArchiCAD-Talk</a>) is helpful to benefit from other users' experiences.</p>
+<hr />
+<p><strong>Published on:</strong> 2025-03-15 | <strong>Code:</strong> ac210-1000  | <strong>Author:</strong> Manuel Emmenegger | bimdo.ch</p>
 <p><strong>Tags:</strong> Archicad, GDL, Library</p>
 
 
