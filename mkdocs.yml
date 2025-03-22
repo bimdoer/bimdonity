@@ -22,7 +22,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/manemme/bimdo-wiki
+      link: https://github.com/bimdoer/bimdonity
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/@bimdoer
     - icon: fontawesome/brands/linkedin
