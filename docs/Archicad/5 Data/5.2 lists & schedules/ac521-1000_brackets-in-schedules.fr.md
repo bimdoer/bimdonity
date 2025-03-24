@@ -13,7 +13,7 @@ tags:
 Les parenthèses ( ) dans les nomenclatures sont des outils puissants, particulièrement en combinaison avec les opérateurs logiques "et" & "ou". Les règles suivent les lois mathématiques des parenthèses - ceux qui les comprennent peuvent créer des nomenclatures précises et fiables. Avec cette connaissance, vos listes fourniront des quantités correctes à 100%.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/XTo-i3R8rE0?si=Q3uRlfwCy8B0EEdQ" 
+  <iframe src="https://www.youtube-nocookie.com/embed/XTo-i3R8rE0?si=Q3uRlfwCy8B0EEdQ" 
           allowfullscreen>
   </iframe>
 </div>

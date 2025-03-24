@@ -19,7 +19,7 @@ BIM lässt sich in verschiedene Kategorien einteilen, was gerade für Einsteiger
 Die Unterschiede und Zusammenhänge werden anhand konkreter Beispiele erläutert.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/0fawSkzh4ec?si=Rn0xpYqpWK2Wa9wM" 
+  <iframe src="https://www.youtube-nocookie.com/embed/0fawSkzh4ec?si=Rn0xpYqpWK2Wa9wM" 
           allowfullscreen>
   </iframe>
 </div>

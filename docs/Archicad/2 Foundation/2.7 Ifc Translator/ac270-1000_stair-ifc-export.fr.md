@@ -17,7 +17,7 @@ tags:
 Lors des échanges avec l'ingénieur structure, il est important de réduire le modèle architectural aux éléments porteurs et aux travaux de béton. ArchiCAD offre l'affichage structurel pour cela, ce qui permet d'isoler les noyaux des éléments porteurs. Alors que cela fonctionne automatiquement avec la plupart des éléments et masque les couches non porteuses, l'escalier nécessite encore quelques astuces. Dans cette vidéo, je vous montre les différentes options pour la représentation IFC correcte des escaliers.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/69D_gTsrf-o?si=OcCnw0dXsIiJIfjE" 
+  <iframe src="https://www.youtube-nocookie.com/embed/69D_gTsrf-o?si=OcCnw0dXsIiJIfjE" 
           allowfullscreen>
   </iframe>
 </div>

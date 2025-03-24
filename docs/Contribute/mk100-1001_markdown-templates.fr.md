@@ -51,11 +51,11 @@ _# h1 n'est pas utilisé, le titre apparaîtra automatiquement_
 ## YouTube
 Prenez le bon lien d'intégration de YouTube (uniquement le lien), est connecté avec custom.css
 <div class="video-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" frameborder="0" allowfullscreen></iframe>
 </div>
 ```html
 <div class="video-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" frameborder="0" allowfullscreen></iframe>
 </div>
 ```
 

@@ -13,7 +13,7 @@ tags:
 In questo primo video di una serie di sei parti, impariamo il comando GDL "[add](https://www.selfgdl.de/1_ko_trafos/3d_komplex/add/)". Con esso, creiamo una semplice tabella parametrica come base per i video successivi. La serie insegna le basi per creare i propri elementi GDL.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/ZytW7UfwC9s?si=ZyVCMqosC149JMza" 
+  <iframe src="https://www.youtube-nocookie.com/embed/ZytW7UfwC9s?si=ZyVCMqosC149JMza" 
           allowfullscreen>
   </iframe>
 </div>
@@ -24,7 +24,7 @@ Nel secondo video della serie, impariamo i parametri A, B e ZZYZX. Espandiamo la
 
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/lGNPY3GEyAs?si=YYnYNzhV0aKFWK6i" 
+  <iframe src="https://www.youtube-nocookie.com/embed/lGNPY3GEyAs?si=YYnYNzhV0aKFWK6i" 
           allowfullscreen>
   </iframe>
 </div>
@@ -34,7 +34,7 @@ Nel secondo video della serie, impariamo i parametri A, B e ZZYZX. Espandiamo la
 In questo video, impariamo il GUID (Global Unique Identifier) con Main-ID e Revision-ID.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/PpHViaJAAuo?si=qujUAjDpXvXv9cbS" 
+  <iframe src="https://www.youtube-nocookie.com/embed/PpHViaJAAuo?si=qujUAjDpXvXv9cbS" 
           allowfullscreen>
   </iframe>
 </div>
@@ -45,7 +45,7 @@ In questo video, impariamo come creare parametri personalizzati per il nostro el
 
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/t_RrLN7woy4?si=N29LdYyi4HX0PXUd" 
+  <iframe src="https://www.youtube-nocookie.com/embed/t_RrLN7woy4?si=N29LdYyi4HX0PXUd" 
           allowfullscreen>
   </iframe>
 </div>
@@ -57,7 +57,7 @@ In questo video, impariamo come creare parametri personalizzati per il nostro el
 In questo video, impariamo lo script 2D. Definendo direttamente la rappresentazione 2D, evitiamo la proiezione automatica dallo script 3D e possiamo controllare meglio la rappresentazione concettuale.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/5kHt9x0TCj0?si=kK0NcAvxFSMF1E1h" 
+  <iframe src="https://www.youtube-nocookie.com/embed/5kHt9x0TCj0?si=kK0NcAvxFSMF1E1h" 
           allowfullscreen>
   </iframe>
 </div>
@@ -67,7 +67,7 @@ In questo video, impariamo lo script 2D. Definendo direttamente la rappresentazi
 In questo video, impariamo i parametri grafici. Rendiamo disponibili come parametri superfici, tipi di linea e colori della penna, completando così il nostro elemento parametrico.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/gzHP-n5mRKk?si=4QRRuRR98dL2olLE" 
+  <iframe src="https://www.youtube-nocookie.com/embed/gzHP-n5mRKk?si=4QRRuRR98dL2olLE" 
           allowfullscreen>
   </iframe>
 </div>

@@ -19,7 +19,7 @@ BIM can be categorized in different ways, which can often be confusing for begin
 The differences and relationships are explained using concrete examples.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/0fawSkzh4ec?si=Rn0xpYqpWK2Wa9wM" 
+  <iframe src="https://www.youtube-nocookie.com/embed/0fawSkzh4ec?si=Rn0xpYqpWK2Wa9wM" 
           allowfullscreen>
   </iframe>
 </div>

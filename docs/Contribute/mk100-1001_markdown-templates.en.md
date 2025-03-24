@@ -51,11 +51,11 @@ _# h1 not used, title will appear automatic_
 ## YouTube
 Take the right embed link from youtube (only link), is connected with custom.css
 <div class="video-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" frameborder="0" allowfullscreen></iframe>
 </div>
 ```html
 <div class="video-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" frameborder="0" allowfullscreen></iframe>
 </div>
 ```
 

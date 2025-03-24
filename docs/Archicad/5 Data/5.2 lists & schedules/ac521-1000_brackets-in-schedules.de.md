@@ -13,7 +13,7 @@ tags:
 Klammern ( ) in Auswertungslisten sind mächtige Werkzeuge, besonders in Kombination mit den logischen Operatoren "und" & "oder". Die Regeln folgen den mathematischen Klammergesetzen - wer diese versteht, kann Auswertungslisten präzise und zuverlässig erstellen. Mit diesem Wissen werden deine Listen zu 100% korrekte Mengen liefern.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/XTo-i3R8rE0?si=Q3uRlfwCy8B0EEdQ" 
+  <iframe src="https://www.youtube-nocookie.com/embed/XTo-i3R8rE0?si=Q3uRlfwCy8B0EEdQ" 
           allowfullscreen>
   </iframe>
 </div>

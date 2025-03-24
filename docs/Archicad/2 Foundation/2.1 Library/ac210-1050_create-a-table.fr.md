@@ -13,7 +13,7 @@ tags:
 Dans cette première vidéo d'une série de six, nous découvrons la commande GDL "[add](https://www.selfgdl.de/1_ko_trafos/3d_komplex/add/)". Nous créons avec elle une table paramétrique simple comme base pour les vidéos suivantes. La série enseigne les bases pour créer vos propres éléments GDL.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/ZytW7UfwC9s?si=ZyVCMqosC149JMza" 
+  <iframe src="https://www.youtube-nocookie.com/embed/ZytW7UfwC9s?si=ZyVCMqosC149JMza" 
           allowfullscreen>
   </iframe>
 </div>
@@ -24,7 +24,7 @@ Dans la deuxième vidéo de la série, nous découvrons les paramètres A, B et 
 
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/lGNPY3GEyAs?si=YYnYNzhV0aKFWK6i" 
+  <iframe src="https://www.youtube-nocookie.com/embed/lGNPY3GEyAs?si=YYnYNzhV0aKFWK6i" 
           allowfullscreen>
   </iframe>
 </div>
@@ -34,7 +34,7 @@ Dans la deuxième vidéo de la série, nous découvrons les paramètres A, B et 
 Dans cette vidéo, nous découvrons le GUID (Global Unique Identifier) avec Main-ID et Revision-ID.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/PpHViaJAAuo?si=qujUAjDpXvXv9cbS" 
+  <iframe src="https://www.youtube-nocookie.com/embed/PpHViaJAAuo?si=qujUAjDpXvXv9cbS" 
           allowfullscreen>
   </iframe>
 </div>
@@ -45,7 +45,7 @@ Dans cette vidéo, nous apprenons à créer des paramètres personnalisés pour 
 
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/t_RrLN7woy4?si=N29LdYyi4HX0PXUd" 
+  <iframe src="https://www.youtube-nocookie.com/embed/t_RrLN7woy4?si=N29LdYyi4HX0PXUd" 
           allowfullscreen>
   </iframe>
 </div>
@@ -57,7 +57,7 @@ Dans cette vidéo, nous apprenons à créer des paramètres personnalisés pour 
 Dans cette vidéo, nous découvrons le script 2D. En définissant directement la représentation 2D, nous évitons la projection automatique à partir du script 3D et pouvons mieux contrôler la représentation conceptuelle.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/5kHt9x0TCj0?si=kK0NcAvxFSMF1E1h" 
+  <iframe src="https://www.youtube-nocookie.com/embed/5kHt9x0TCj0?si=kK0NcAvxFSMF1E1h" 
           allowfullscreen>
   </iframe>
 </div>
@@ -67,7 +67,7 @@ Dans cette vidéo, nous découvrons le script 2D. En définissant directement la
 Dans cette vidéo, nous découvrons les paramètres graphiques. Nous rendons les surfaces, les types de ligne et les couleurs de plume disponibles en tant que paramètres, complétant ainsi notre élément paramétrique.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/gzHP-n5mRKk?si=4QRRuRR98dL2olLE" 
+  <iframe src="https://www.youtube-nocookie.com/embed/gzHP-n5mRKk?si=4QRRuRR98dL2olLE" 
           allowfullscreen>
   </iframe>
 </div>

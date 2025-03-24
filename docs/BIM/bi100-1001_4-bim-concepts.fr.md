@@ -19,7 +19,7 @@ Le BIM peut être classé dans différentes catégories, ce qui peut souvent êt
 Les différences et les relations sont expliquées à l'aide d'exemples concrets.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/0fawSkzh4ec?si=Rn0xpYqpWK2Wa9wM" 
+  <iframe src="https://www.youtube-nocookie.com/embed/0fawSkzh4ec?si=Rn0xpYqpWK2Wa9wM" 
           allowfullscreen>
   </iframe>
 </div>

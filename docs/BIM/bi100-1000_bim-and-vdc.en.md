@@ -17,7 +17,7 @@ This video explains the strategic positioning of BIM in the construction process
 Through this holistic approach, concrete added values can be demonstrated and quantified throughout the entire project cycle.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" 
+  <iframe src="https://www.youtube-nocookie.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" 
           allowfullscreen>
   </iframe>
 </div>

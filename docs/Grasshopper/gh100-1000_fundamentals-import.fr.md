@@ -33,7 +33,7 @@ La clé est d'importer uniquement les données requises de manière ciblée et d
 6. Importer dans ArchiCAD via la connexion Grasshopper
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/irmRQJ-8-YA?si=AUGPiorBAVAcIzcQ" 
+  <iframe src="https://www.youtube-nocookie.com/embed/irmRQJ-8-YA?si=AUGPiorBAVAcIzcQ" 
           allowfullscreen>
   </iframe>
 </div>

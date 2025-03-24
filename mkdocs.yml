@@ -8,13 +8,13 @@ theme:
   font: false  # Disable Google Fonts completely
   
   palette:
-    - scheme: default        # Heller Modus (weiß)
+    - scheme: default
       primary: black
       accent: light blue
       toggle:
         icon: material/lightbulb-outline
         name: "Switch to dark mode"
-    - scheme: slate          # Dunkler Modus (slate)
+    - scheme: slate
       primary: black
       accent: light blue
       toggle:
@@ -30,20 +30,16 @@ extra:
       link: https://www.linkedin.com/in/manuel-emmenegger-45353819b/
   consent:
     title: Cookie Settings
+    actions:
+      - accept
     description: >- 
       This website uses external services and hosting providers.
       These services may collect usage data according to their terms.
       Learn more in our <a href="/About/privacy-policy/" target="_blank">privacy policy</a> and <a href="/About/imprint/" target="_blank">imprint</a>.
-    cookies:
-      analytics:
-        name: Google Analytics
-        checked: false
-      github:
-        name: GitHub
-        checked: true
 plugins:
   - search
   - macros
+  - privacy
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
@@ -61,7 +57,6 @@ plugins:
           default: true
           name: English
           build: true
-  - privacy
 
 extra_css:
   - styles/custom.css

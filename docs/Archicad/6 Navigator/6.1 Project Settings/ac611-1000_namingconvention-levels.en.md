@@ -14,7 +14,7 @@ tags:
 Naming conventions is certainly a topic with a lot of room for discussion, and this begins with level designations. However, consistent naming conventions and meaningful level designations are the foundation for automation. Of course, naming conventions can also be largely standardized, and you don't have to rename each file manually. Naturally, we always face conflicts between internal and external conventions and their interdependencies. In this video, we look at some possibilities and which characters you should definitely avoid.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/zvVxTgvqwis?si=1iAh8xzd1GF-R9Rh" 
+  <iframe src="https://www.youtube-nocookie.com/embed/zvVxTgvqwis?si=1iAh8xzd1GF-R9Rh" 
           allowfullscreen>
   </iframe>
 </div>

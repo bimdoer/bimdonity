@@ -17,7 +17,7 @@ Cette vidéo explique le positionnement stratégique du BIM dans le processus de
 Grâce à cette approche holistique, des valeurs ajoutées concrètes peuvent être démontrées et quantifiées tout au long du cycle de projet.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" 
+  <iframe src="https://www.youtube-nocookie.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" 
           allowfullscreen>
   </iframe>
 </div>

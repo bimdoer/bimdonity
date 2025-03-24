@@ -17,7 +17,7 @@ Questo video spiega il posizionamento strategico del BIM nel processo di costruz
 Attraverso questo approccio olistico, i valori aggiunti concreti possono essere dimostrati e quantificati durante l'intero ciclo del progetto.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" 
+  <iframe src="https://www.youtube-nocookie.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" 
           allowfullscreen>
   </iframe>
 </div>

@@ -17,7 +17,7 @@ Dieses Video erläutert die strategische Einordnung von BIM in den Bauprozess un
 Durch diese ganzheitliche Betrachtung können konkrete Mehrwerte über den gesamten Projektzyklus nachgewiesen und quantifiziert werden.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" 
+  <iframe src="https://www.youtube-nocookie.com/embed/cgiI8TBw9H0?si=NWXfqKQGowqPxPVR" 
           allowfullscreen>
   </iframe>
 </div>

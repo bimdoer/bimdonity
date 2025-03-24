@@ -33,7 +33,7 @@ The key is to import only the required data in a targeted manner and position it
 6. Import into ArchiCAD via the Grasshopper connection
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/irmRQJ-8-YA?si=AUGPiorBAVAcIzcQ" 
+  <iframe src="https://www.youtube-nocookie.com/embed/irmRQJ-8-YA?si=AUGPiorBAVAcIzcQ" 
           allowfullscreen>
   </iframe>
 </div>

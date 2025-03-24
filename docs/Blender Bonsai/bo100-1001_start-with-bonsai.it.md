@@ -13,7 +13,7 @@ Come parte di una serie di interviste su Bonsai di [Petru Conduraru](https://www
 Puoi trovare l'intervista correlata [qui](https://www.youtube.com/watch?v=bp3uZyTVqpk).
 
 <div class="video-container">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/bp3uZyTVqpk?si=ZIHVXgTVxoe754So" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/bp3uZyTVqpk?si=ZIHVXgTVxoe754So" frameborder="0" allowfullscreen></iframe>
 </div>
 
 
