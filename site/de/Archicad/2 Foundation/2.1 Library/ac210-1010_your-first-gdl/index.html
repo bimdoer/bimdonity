@@ -1,0 +1,2308 @@
+
+<!doctype html>
+<html lang="de" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Manuel Emmenegger | bimdo.ch">
+      
+      
+        <link rel="canonical" href="https://bimdonity.ch/de/Archicad/2%20Foundation/2.1%20Library/ac210-1010_your-first-gdl/">
+      
+      
+        <link rel="prev" href="../ac210-1000_getting-started-with-gdl/">
+      
+      
+        <link rel="next" href="../ac210-1050_create-a-table/">
+      
+      
+      <link rel="icon" href="../../../../../images/bimdo-logo.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.8">
+    
+    
+      
+        <title>Dein erstes GDL - bimdonity</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.8608ea7d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../styles/custom.css">
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#allgemeine-tipps" class="md-skip">
+          Zum Inhalt
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Kopfzeile">
+    <a href="../../../../" title="bimdonity" class="md-header__button md-logo" aria-label="bimdonity" data-md-component="logo">
+      
+  <img src="../../../../../images/bimdo-logo.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            bimdonity
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Dein erstes GDL
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="light-blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="light-blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Sprache wechseln">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="./" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../../../fr/Archicad/2%20Foundation/2.1%20Library/ac210-1010_your-first-gdl/" hreflang="fr" class="md-select__link">
+              Français
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../../../it/Archicad/2%20Foundation/2.1%20Library/ac210-1010_your-first-gdl/" hreflang="it" class="md-select__link">
+              Italiano
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="../../../../../Archicad/2%20Foundation/2.1%20Library/ac210-1010_your-first-gdl/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Suche" placeholder="Suche" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Suche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Zurücksetzen" aria-label="Zurücksetzen" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Suche wird initialisiert
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../" title="bimdonity" class="md-nav__button md-logo" aria-label="bimdonity" data-md-component="logo">
+      
+  <img src="../../../../../images/bimdo-logo.svg" alt="logo">
+
+    </a>
+    bimdonity
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            About
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../About/imprint/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Impressum
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../About/privacy-policy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Datenschutzerklärung
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Archicad
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Archicad
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    1 Preperation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            1 Preperation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../1%20Preperation/under-construction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Under construction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2 Foundation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            2 Foundation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_1" id="__nav_3_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2.1 Library
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            2.1 Library
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ac210-1000_getting-started-with-gdl/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Einführung in GDL
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Dein erstes GDL
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Dein erstes GDL
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#allgemeine-tipps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Allgemeine Tipps
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strukturierung-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strukturierung Script
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#erstellung-gdl" class="md-nav__link">
+    <span class="md-ellipsis">
+      Erstellung GDL
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Erstellung GDL">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#3d-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      3D-Script
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2d-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      2D-Script
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speichern" class="md-nav__link">
+    <span class="md-ellipsis">
+      Speichern
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3d-parameter" class="md-nav__link">
+    <span class="md-ellipsis">
+      3D Parameter
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3D Parameter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#geometrie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Geometrie
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#darstellung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Darstellung
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#individuelles-2d-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Individuelles 2D-Script
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Individuelles 2D-Script">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2d-parameter" class="md-nav__link">
+    <span class="md-ellipsis">
+      2D Parameter
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line2" class="md-nav__link">
+    <span class="md-ellipsis">
+      line2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rect2" class="md-nav__link">
+    <span class="md-ellipsis">
+      rect2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#poly2" class="md-nav__link">
+    <span class="md-ellipsis">
+      poly2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#poly2_" class="md-nav__link">
+    <span class="md-ellipsis">
+      poly2_
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#poly2_a" class="md-nav__link">
+    <span class="md-ellipsis">
+      poly2_A
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#poly2_b" class="md-nav__link">
+    <span class="md-ellipsis">
+      poly2_B
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ac210-1050_create-a-table/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Erstelle einen Tisch
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2_2" id="__nav_3_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    2.7 Ifc Translator
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            2.7 Ifc Translator
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../2.7%20Ifc%20Translator/ac270-1000_stair-ifc-export/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ifc Treppe Rohbau
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    3 Components
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            3 Components
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../3%20Components/under-construction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Under construction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    4 Favorits
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            4 Favorits
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../4%20Favorits/under-construction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Under construction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    5 Data
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            5 Data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5_1" id="__nav_3_5_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    5.2 lists & schedules
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            5.2 lists & schedules
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../5%20Data/5.2%20lists%20%26%20schedules/ac521-1000_brackets-in-schedules/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Klammern in Auswertungen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    6 Navigator
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            6 Navigator
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_6_1" id="__nav_3_6_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    6.1 Project Settings
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_6_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6_1">
+            <span class="md-nav__icon md-icon"></span>
+            6.1 Project Settings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../6%20Navigator/6.1%20Project%20Settings/ac611-1000_namingconvention-levels/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Geschossbezeichnungen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    7 Check
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_7">
+            <span class="md-nav__icon md-icon"></span>
+            7 Check
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../7%20Check/ac640-1000_visual-ifc-check/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visuelle QS Ifc
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    BIM
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            BIM
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BIM/bi100-1000_bim-and-vdc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BIM im Kontext VDC
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BIM/bi100-1001_4-bim-concepts/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    4 BIM-Konzepte
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BIM/bi100-1003_building-physics-typology/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Typisierung Bauphysik
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BIM/bi100-1004_guid/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GUID - Blobally Unique Identifier
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../BIM/bi100-2000_surface-model/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Oberflächenmodell TWM
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Blender Bonsai
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Blender Bonsai
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Blender%20Bonsai/bo100-1001_start-with-bonsai/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Erste Schritte mit Bonsai
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Contribute
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Contribute
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Contribute/mk100-1000_markdown-empty/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Markdown Empty
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Contribute/mk100-1001_markdown-templates/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Markdown Templates
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Grasshopper
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Grasshopper
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../Grasshopper/gh100-1000_fundamentals-import/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Grundlagen-Import
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#allgemeine-tipps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Allgemeine Tipps
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strukturierung-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strukturierung Script
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#erstellung-gdl" class="md-nav__link">
+    <span class="md-ellipsis">
+      Erstellung GDL
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Erstellung GDL">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#3d-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      3D-Script
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2d-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      2D-Script
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#speichern" class="md-nav__link">
+    <span class="md-ellipsis">
+      Speichern
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3d-parameter" class="md-nav__link">
+    <span class="md-ellipsis">
+      3D Parameter
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3D Parameter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#geometrie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Geometrie
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#darstellung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Darstellung
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#individuelles-2d-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      Individuelles 2D-Script
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Individuelles 2D-Script">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2d-parameter" class="md-nav__link">
+    <span class="md-ellipsis">
+      2D Parameter
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#line2" class="md-nav__link">
+    <span class="md-ellipsis">
+      line2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rect2" class="md-nav__link">
+    <span class="md-ellipsis">
+      rect2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#poly2" class="md-nav__link">
+    <span class="md-ellipsis">
+      poly2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#poly2_" class="md-nav__link">
+    <span class="md-ellipsis">
+      poly2_
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#poly2_a" class="md-nav__link">
+    <span class="md-ellipsis">
+      poly2_A
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#poly2_b" class="md-nav__link">
+    <span class="md-ellipsis">
+      poly2_B
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Dein erstes GDL</h1>
+
+<h2 id="allgemeine-tipps">Allgemeine Tipps</h2>
+<p>Bevor du mit deinem ersten Skript beginnst, hier einige hilfreiche Tipps:</p>
+<ol>
+<li><strong>Ideen skizzieren</strong>: Halte deine Ideen kurz fest, um wichtige Parameter zu identifizieren.</li>
+<li><strong>Anforderungen definieren</strong>: Unterteile die Anforderungen in grundlegende Funktionen und "nice to have"-Funktionen.</li>
+<li>
+<p><strong>Prototyping</strong>: Experimentiere mit verschiedenen Ansätzen, um Lösungswege zu finden. Prototyping kann dir helfen, deine Ideen zu testen und zu verfeinern.</p>
+</li>
+<li>
+<p><strong>Strukturierung des Skripts</strong>: Kommentiere dein Skript und verwende Überschriften, um die Lesbarkeit zu verbessern. Ein klar strukturierter Code erleichtert die Zusammenarbeit im Team.</p>
+</li>
+</ol>
+<pre><code>!Beginne dein Script mit ein paar Infos
+    !Objekttitel
+    !Datum
+    !Dein Name
+    !Script-Name z.B. 3D-Script
+
+Strukturiere
+    deine
+        Arbeit
+    mit
+Tabstops.
+
+&quot;G R O S S  &amp; klein&quot; dient nur der besseren Übersicht
+    &gt;&gt;Graphisoft scriptet fast alles klein
+    &gt;&gt;GDL-Kochbuch empfiehlt Befehle   &quot;GROSS&quot;
+                             Attribute &quot;klein&quot;
+
+END !--------------- Beende dein Script mit END.
+</code></pre>
+<hr />
+<h2 id="strukturierung-script">Strukturierung Script</h2>
+<ul>
+<li>Kommentiere das Skript mit <code>!</code> und füge Überschriften hinzu.</li>
+<li>Verwende Tabstops für eine klare Struktur.</li>
+<li>Nutze Großbuchstaben für Befehle und Kleinbuchstaben für Attribute.</li>
+<li>Setze Subroutinen ein, um komplexe Skripte zu organisieren.</li>
+<li>Beende jedes Skript mit dem <code>END</code>-Befehl.</li>
+<li>Erstelle ein neues GDL und überprüfe das Ergebnis in der 3D-Ansicht.</li>
+<li>Weitere Informationen findest du im <a href="http://gdl.graphisoft.com/gdl-style-guide">Graphisoft GDL Style Guide</a>.</li>
+</ul>
+<hr />
+<h2 id="erstellung-gdl">Erstellung GDL</h2>
+<h3 id="3d-script">3D-Script</h3>
+<p><strong>1. Neues GDL erstellen:</strong></p>
+<ul>
+<li>Öffne ArchiCAD und gehe zum Menü "Ablage".</li>
+<li>Wähle "Neu" und dann "GDL-Objekt", um ein neues GDL-Skript zu erstellen.</li>
+</ul>
+<p><strong>2. Block-Skript einfügen:</strong></p>
+<ul>
+<li>Öffne den 3D-Skript-Editor in deinem neuen GDL-Objekt.</li>
+<li>Kopiere und füge das folgende Block-Skript in den Editor ein.</li>
+</ul>
+<p><strong>3. Prüfe das Ergebnis:</strong></p>
+<ul>
+<li>Öffne die 3D-Ansicht auf der linken Seite.</li>
+</ul>
+<div class="responsive-container">
+  <div>
+    <pre><code>
+!Bock auf Block
+!20210903
+!Manuel Emmenegger
+!3D-Script
+
+block 1,2,3
+
+end !Ende des Scripts
+    </code></pre>
+  </div>
+  <div>
+      <img src="../assets/ac210-1010_01_3D-View-300x278.png" alt="3D View">
+  </div>
+</div>
+
+<p><strong>4. Prüfe das Ergebnis:</strong></p>
+<ul>
+<li>Nach dem Befehl stehen die Eingaben <em>1,2,3</em>, welche für <em>x,y,z</em> stehen. Spiele nun etwas mit diesen Werten und kontrolliere das Ergebnis in der 3D-Ansicht. Weitere Informationen zu diesem Befehl findest du unter <a href="https://www.selfgdl.de/3d-elemente/grundkoerper/block/">selfgdl.de</a>.</li>
+</ul>
+<hr />
+<h3 id="2d-script">2D-Script</h3>
+<p>Im nächsten Schritt überarbeiten wir die 2D-Darstellung. Öffne das 2D-Script und ergänze die entsprechenden Zeilen, um eine automatische Projektion vom 3D-Script zu erzeugen. Verwende den Befehl nur zur Kontrolle, da er bei komplexer Geometrie den Grundrissaufbau verlangsamen kann. Weitere Informationen findest du auf <a href="https://www.selfgdl.de/2d-elemente-2/projektionen/project2/">selfgdl.de</a>.</p>
+<div class="responsive-container">
+  <div>
+    <pre><code>
+!Bock auf Block
+!20210903
+!Manuel Emmenegger
+!2D-Script
+
+project2 3,270,1
+
+end !Ende des Scripts
+    </code></pre>
+  </div>
+  <div>
+        <img src="../assets/ac210-1010_02_2D-View-300x273.png" alt="2D-Ansicht">
+  </div>
+</div>
+
+<hr />
+<h3 id="speichern">Speichern</h3>
+<p>Speichere dein erstes GDL in der eingebetteten Bibliothek über "Ablage/sichern" und speichere die ArchiCAD-Datei als .pln, um das GDL zu integrieren.</p>
+<hr />
+<h2 id="3d-parameter">3D Parameter</h2>
+<h3 id="geometrie">Geometrie</h3>
+<p>Nun geht es darum, dieses Element zu parametrisieren. Wir beginnen mit einigen Standardparametern. Öffne in unserem bereits erstellten Element das Register "Parameter" auf der linken Seite. Hier sollten drei Standardparameter vorhanden sein: Parameter A für die X-Achse, Parameter B für die Y-Achse und Parameter ZZYZX für die Z-Achse.</p>
+<p>Ersetze die Zahlen im Script durch die Standardparameter A, B und ZZYZX und überprüfe die Änderungen in der 3D-Ansicht. Diese Parameter beeinflussen auch die 2D-Ansicht dank des "project2"-Befehls.</p>
+<p>Speichere das Element, schließe den GDL-Editor und platziere das Element mit dem Objekt-Werkzeug.</p>
+<pre><code>!Bock auf Block
+!20210903
+!Manuel Emmenegger
+!3D-Script
+
+block A,B,ZZYZX
+
+end !Ende des Scripts
+</code></pre>
+<p>Drücke "T", um die Objekteinstellungen zu öffnen, wo du die Parameter A, B und ZZYZX findest. Dein parametrisiertes GDL-Objekt ist nun erstellt.
+<a href="../../../../../Archicad/2%20Foundation/2.1%20Library/assets/ac210-1010_03_Settings-Dialog.png"><img alt="Parameters" src="../../../../../Archicad/2%20Foundation/2.1%20Library/assets/ac210-1010_03_Settings-Dialog.png" /></a></p>
+<hr />
+<h3 id="darstellung">Darstellung</h3>
+<p>Um weitere Parameter zu erkunden, wähle das GDL-Objekt aus und drücke Strg+Shift+O.</p>
+<p>Erstelle zwei neue Parameter im Register "Parameter". Für die Namensgebung empfiehlt sich ein konsistentes Konzept, eventuell basierend auf dem <a href="https://gdl.graphisoft.com/gdl-style-guide/naming-conventions">Graphisoft Standard</a>. Längere Namen sind hilfreich, um die Parameter direkt zu erkennen, ohne eine Legende zu benötigen.</p>
+<p><a href="../../../../../Archicad/2%20Foundation/2.1%20Library/assets/ac210-1010_04_Parameter.png"><img alt="Parameter" src="../../../../../Archicad/2%20Foundation/2.1%20Library/assets/ac210-1010_04_Parameter.png" /></a></p>
+<p>Die Parameter-Tabelle enthält folgende wichtige Spalten:</p>
+<ul>
+<li>Display: Steuert die Darstellung im Interface (z.B. fett, ausgeblendet)</li>
+<li>Variable: Name der Variable für das Script</li>
+<li>Typ: Art der Variable (z.B. Stift, Oberfläche)</li>
+<li>Name: Angezeigter Name für den Benutzer</li>
+<li>Wert: Standardwert des Parameters</li>
+</ul>
+<p>Weitere Details zu den Parametertypen findest du in der <a href="https://help.graphisoft.com/AC/25/ger/_AC25_Help/140_UserInterfaceDialogBoxes/140_UserInterfaceDialogBoxes-66.htm#XREF_66121_GDL_Master_Window">Dokumentation</a>.</p>
+<p>Ergänzen wir nun die Befehle "pen" für den Konturstift und "set material" für die Oberfläche im Script. Speichere anschließend das Element und prüfe das Ergebnis.</p>
+<pre><code>!Bock auf Block
+!20210903
+!Manuel Emmenegger
+!3D-Script
+
+pen            penContour3D
+set material   matCover
+
+block A,B,ZZYZX
+
+end !Ende des Scripts
+</code></pre>
+<hr />
+<h2 id="individuelles-2d-script">Individuelles 2D-Script</h2>
+<h3 id="2d-parameter">2D Parameter</h3>
+<p>Nun wollen wir uns die zweidimensionale Darstellung von unserem Block etwas genauer anschauen. Dazu beschäftigen wir uns mit den Befehlen <a href="https://www.selfgdl.de/2d-elemente-2/zeichnungselemente/line2/">line2</a> und <a href="https://www.selfgdl.de/2d-elemente-2/zeichnungselemente/rect2/">rect2</a> sowie den Attributen <a href="https://www.selfgdl.de/attribute/allgemein/pen/">pen</a> und <a href="https://www.selfgdl.de/attribute/linien/set-line_type/">set line_type</a>.</p>
+<p>Ein separates 2D-Script bietet zwei wichtige Vorteile:</p>
+<ol>
+<li>
+<p>Bei komplexen 3D-Elementen ist die Grundrissdarstellung schneller, da nicht alles projiziert werden muss.</p>
+</li>
+<li>
+<p>Grundrisse verwenden oft Symbole statt reiner Projektionen, z.B. bei Steckdosen und Schaltern.</p>
+</li>
+</ol>
+<p>Um die project2-Linien von unseren eigenen unterscheiden zu können, erstellen wir zunächst neue Parameter wie im Screenshot gezeigt.
+<a href="../../../../../Archicad/2%20Foundation/2.1%20Library/assets/ac210-1010_05_Parameter.png"><img alt="Parameter" src="../../../../../Archicad/2%20Foundation/2.1%20Library/assets/ac210-1010_05_Parameter.png" /></a></p>
+<p>Die Befehle "pen" und "line_type" werden nach project2 eingefügt, sodass die project2-Linien mit Stift 1 und Linientyp 1 gezeichnet werden und alle weiteren Linien die neuen Attribute erhalten.</p>
+<hr />
+<h3 id="line2">line2</h3>
+<p>Mit dem Befehl line2 zeichnen wir die vier Linien unseres Blocks von oben gesehen. Der Befehl verwendet zwei Koordinatenpaare (x1,y1,x2,y2) und zieht eine Linie zwischen diesen Punkten. Die vier Linien bilden ein Rechteck, das in der 2D-Ansicht kongruent zur project2-Darstellung sein sollte.</p>
+<pre><code>!Bock auf Block
+!20210903
+!Manuel Emmenegger
+!2D-Script
+
+project2 3,270,1
+
+pen            penContour2D
+set line_type  ltContour2D
+   !line2 x1,y1,x2,y2
+    line2 0,0,A,0
+    line2 A,0,A,B
+    line2 A,B,B,0
+    line2 0,B,0,0
+
+end !Ende des Scripts
+</code></pre>
+<hr />
+<h3 id="rect2">rect2</h3>
+<p>Der Befehl <a href="https://www.selfgdl.de/2d-elemente-2/zeichnungselemente/rect2/">rect2</a> ermöglicht es, die vier Linien durch eine einzige Rechteck-Definition zu ersetzen. Dabei wird ein Rechteck zwischen zwei Punkten (x1,y1) und (x2,y2) aufgezogen.</p>
+<pre><code>!rect2 x1,y1,x2,y2
+ rect2 0,0,A,B
+</code></pre>
+<p>Wie du sicherlich bemerkt hast, funktionieren die beiden Befehle „line2" und „rect2" nicht gleich wie der Befehl „block". Beim Befehl "block" konnten wir nämlich den Startpunkt des Blocks, also den Objektursprung (Startpunkt im Raum), nicht bestimmen, wir starteten automatisch immer beim Punkt 0,0,0. Mit dem Befehl "<a href="https://www.selfgdl.de/1_ko_trafos/3d_komplex/add/">add</a>" lässt sich diese Einschränkung später umgehen. Die 2D-Befehle bieten hier also mehr Flexibilität bei der Positionierung der Elemente.</p>
+<hr />
+<h3 id="poly2">poly2</h3>
+<p>Nachdem wir die Linienwerkzeuge kennengelernt haben, wollen wir nun mit dem Befehl "<a href="https://www.selfgdl.de/2d-elemente-2/polygone/poly2/">poly2</a>" Schraffuren erstellen. Dafür benötigen wir auch den Befehl "<a href="https://www.selfgdl.de/attribute/schraffuren/set-fill/">set fill</a>" zur Steuerung des Schraffurtyps.</p>
+<p>Erstelle die Parameter wie im Screenshot gezeigt und ergänze den Schraffurtyp im Script nach den Stift- und Linientyp-Definitionen.</p>
+<p><a href="../../../../../Archicad/2%20Foundation/2.1%20Library/assets/ac210-1010_06_Parameter.png"><img alt="Parameter" src="../../../../../Archicad/2%20Foundation/2.1%20Library/assets/ac210-1010_06_Parameter.png" /></a></p>
+<p>Ersetze den rect2-Befehl durch poly2 und füge die Anzahl Ecken (4) sowie die Darstellungsart (1+2+4+0) vor den xy-Werten ein. Die Punkte entsprechen den gleichen Endpunkten wie bei line2.</p>
+<p>Der Befehl „poly2" unterscheidet sich von „rect2" durch:</p>
+<ul>
+<li>Variable Anzahl Ecken</li>
+<li>Schraffur- oder Konturdarstellung </li>
+<li>Möglichkeit offener Polygone</li>
+</ul>
+<pre><code>!Bock auf Block
+!20210903
+!Manuel Emmenegger
+!2D-Script
+
+project2 3,270,1
+
+pen            penContour2D
+set line_type  ltContour2D
+set fill       fillType2D
+   !poly2 n,Konturfüllung,
+   !      x1,y1,
+   !      ..
+   !      Xn,yn
+    poly2 4,1+2+4+0,
+          0,0,
+          A,0,
+          A,B,
+          0,B
+
+end !Ende des Scripts
+</code></pre>
+<hr />
+<h3 id="poly2_">poly2_</h3>
+<p>Der poly2_ Befehl bietet erweiterte Steuerungsmöglichkeiten für Kanten und Stifte. Wir beginnen mit <a href="https://www.selfgdl.de/2d-elemente-2/polygone/poly2_/">poly2_</a>, bei dem jeder xy-Wert einen Status erhält: 1 für sichtbare Linien, -1 für Polygonzug-Endpunkte. Details zum Status findest du auf <a href="https://www.selfgdl.de/2d-elemente-2/polygone/poly2_/">selfgdl.de</a>.</p>
+<pre><code>!poly2_ n,Konturfüllung,
+!       x1,y1,Status,
+!       ..
+!       x2,y2,Status
+ poly2_ 4,1+2+4+0,
+        0,0,1,
+        A,0,1,
+        A,B,1,
+        0,B,1
+</code></pre>
+<hr />
+<h3 id="poly2_a">poly2_A</h3>
+<p>Mit <a href="https://www.selfgdl.de/2d-elemente-2/polygone/poly2_a/">poly2_A</a> steuern wir den Vordergrundstift der Schraffur - ideal für massive Schraffuren.</p>
+<pre><code>!poly2_A n,Konturfüll,Schraffurstift,
+!        x1,y1,Status,
+!        ..
+!        x2,y2,Status
+ poly2_A 4,1+2+4+0,penFront2D,
+         0,0,1,
+         A,0,1,
+         A,B,1,
+         0,B,1
+</code></pre>
+<hr />
+<h3 id="poly2_b">poly2_B</h3>
+<p>Der Befehl <a href="https://www.selfgdl.de/2d-elemente-2/polygone/poly2_b/">poly2_B</a> bietet die umfangreichsten Steuerungsmöglichkeiten, da sowohl Vorder- als auch Hintergrundstift definiert werden können. Nach dem Speichern und Platzieren des Elements im Grundriss können alle erstellten Parameter getestet werden.</p>
+<pre><code>!poly2_B n,Konturfüll,Schraffurstift,
+!        Hintergrundstift,
+!        x1,y1,Status,
+!        ..
+!        x2,y2,Status
+ poly2_B 4,1+2+4+0,penFront2D,
+         penBack2D,
+         0,0,1,
+         A,0,1,
+         A,B,1,
+         0,B,1
+</code></pre>
+<hr />
+<p><strong>Veröffentlicht am:</strong> 2025-03-15 | <strong>Code:</strong> ac210-1010  | <strong>Autor:</strong> Manuel Emmenegger | bimdo.ch</p>
+<p><strong>Schlagwörter:</strong> Archicad, GDL | <strong>Original:</strong> Deutsch</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/bimdoer/bimdonity" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/@bimdoer" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305m-317.51 213.508V175.185l142.739 81.205z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/in/manuel-emmenegger-45353819b/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+
+
+  
+
+<h4>Cookie Settings</h4>
+<p>This website uses external services and hosting providers. These services may collect usage data according to their terms. Learn more in our <a href="/About/privacy-policy/" target="_blank">privacy policy</a> and <a href="/About/imprint/" target="_blank">imprint</a>.</p>
+<input class="md-toggle" type="checkbox" id="__settings" checked>
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Akzeptieren</button>
+    
+    
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    <script id="__config" type="application/json">{"base": "../../../../..", "features": [], "search": "../../../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "In Zwischenablage kopiert", "clipboard.copy": "In Zwischenablage kopieren", "search.result.more.one": "1 weiteres Suchergebnis auf dieser Seite", "search.result.more.other": "# weitere Suchergebnisse auf dieser Seite", "search.result.none": "Keine Suchergebnisse", "search.result.one": "1 Suchergebnis", "search.result.other": "# Suchergebnisse", "search.result.placeholder": "Suchbegriff eingeben", "search.result.term.missing": "Es fehlt", "select.version": "Version ausw\u00e4hlen"}}</script>
+    
+    
+      <script src="../../../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
