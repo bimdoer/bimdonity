@@ -66,9 +66,6 @@ plugins:
 extra_css:
   - styles/custom.css
 
-extra_javascript:
-  - javascripts/redirect.js
-
 markdown_extensions:
   - attr_list
   - md_in_html
