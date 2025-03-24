@@ -33,7 +33,7 @@ extra:
     description: >- 
       This website uses external services and hosting providers.
       These services may collect usage data according to their terms.
-      Learn more in our <a href="docs\About\privacy-policy.md" target="_blank">privacy policy</a> and <a href="docs\About\imprint.md" target="_blank">imprint</a>.
+      Learn more in our <a href="/About/privacy-policy/" target="_blank">privacy policy</a> and <a href="/About/imprint/" target="_blank">imprint</a>.
     cookies:
       analytics:
         name: Google Analytics
@@ -65,6 +65,9 @@ plugins:
 
 extra_css:
   - styles/custom.css
+
+extra_javascript:
+  - javascripts/redirect.js
 
 markdown_extensions:
   - attr_list
