@@ -44,3 +44,29 @@
     flex: 1 1 50%; /* Side by side on larger screens */
   }
 }
+
+/* Background of cookie consent modal not blurred */
+.md-consent__overlay {
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  background-color: rgba(0, 0, 0, 0) !important; /* Semi-transparent overlay */
+}
+
+/* Primary button (gefüllter Button) */
+.md-consent__controls button.md-button--primary {
+  background-color: #4298fa !important;
+  border-color: #4298fa !important;
+  color: white !important;
+}
+
+/* Secondary buttons (Outline-Buttons) */
+.md-consent__controls .md-button:not(.md-button--primary) {
+  color: #4298fa !important;
+  border-color: #4298fa !important;
+  background-color: transparent !important;
+}
+
+/* Hover für Secondary buttons */
+.md-consent__controls .md-button:not(.md-button--primary):hover {
+  background-color: rgba(66, 152, 250, 0.1) !important;
+}

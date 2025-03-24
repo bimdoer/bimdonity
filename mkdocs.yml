@@ -5,7 +5,8 @@ theme:
   language: de
   logo: images/bimdo-logo.svg
   favicon: images/bimdo-logo.svg
-    
+  font: false  # Disable Google Fonts completely
+  
   palette:
     - scheme: default        # Heller Modus (weiß)
       primary: black
@@ -27,7 +28,19 @@ extra:
       link: https://www.youtube.com/@bimdoer
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/manuel-emmenegger-45353819b/
-
+  consent:
+    title: Cookie Settings
+    description: >- 
+      This website uses external services and hosting providers.
+      These services may collect usage data according to their terms.
+      Learn more in our <a href="about/privacy-policy/" target="_blank">privacy policy</a> and <a href="about/imprint/" target="_blank">imprint</a>.
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
+      github:
+        name: GitHub
+        checked: true
 plugins:
   - search
   - macros
@@ -36,7 +49,6 @@ plugins:
       fallback_to_default: true
       languages:
         - locale: de
-          default: true
           name: Deutsch
           build: true
         - locale: fr
@@ -46,9 +58,10 @@ plugins:
           name: Italiano
           build: true
         - locale: en
+          default: true
           name: English
           build: true
-
+  - privacy
 
 extra_css:
   - styles/custom.css

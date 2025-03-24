@@ -1,31 +1,33 @@
 ---
-title: "Benvenuto"
+title: "Home"
 ---
 
 # bimdonity - Rete di Conoscenza per il BIM!
-Qui inizia il tuo viaggio nel mondo del Building Information Modeling. 🌍 Che tu stia appena iniziando o che sia già in cammino come bimdoer – qui troverai tutto ciò di cui hai bisogno per partire con il BIM. 🚀 Con noi, la conoscenza è liberamente accessibile, open source, e tutti possono contribuire. 🤝 Insieme, creiamo una piattaforma indipendente basata su standard aperti. 🔓
 
-## Introduzione
+Benvenuti nell'emozionante mondo del Building Information Modeling! 🌍
+Come parte community della piattaforma bimdoer, offriamo qui su GitHub conoscenze BIM liberamente accessibili a tutti - che siate principianti BIM o bimdoer esperti. 🚀
 
-<div class="video-container">
-  <iframe src="https://www.youtube.com/embed/iJ-YtqRgC4Y?si=0zJ2X5Puv_qRmD7j" 
-          allowfullscreen>
-  </iframe>
-</div>
+## Focus & Contenuti
+bimdonity si concentra sulla conoscenza pratica del BIM con particolare enfasi su:
 
-## Risorse Utili
+- **Workflow Pratici**: Flussi di lavoro collaudati per l'uso quotidiano del BIM
+- **Tutorial Software**: Guide per Archicad, Grasshopper, Blender e altri strumenti
+- **Formati di Scambio**: IFC, BCF e altri standard aperti
+- **Garanzia di Qualità**: Procedure di test e metodi di validazione
+- **Ottimizzazione dei Processi**: Automazione delle attività ricorrenti
 
-[**YouTube:**](https://www.youtube.com/@bimdoer)  
-  Dai un'occhiata al nostro canale YouTube per video regolari, tutorial e approfondimenti.  
+Ci concentriamo su soluzioni che sono state testate in progetti reali, piuttosto che su concetti teorici. L'enfasi è sull'assistenza concreta per tutti gli utenti BIM, dai principianti agli esperti, con particolare attenzione ai benefici per le PMI. A differenza delle offerte commerciali, qui l'attenzione è sulla conoscenza fondamentale che dovrebbe essere accessibile a tutti.
 
-[**bimdo.ch**](https://bimdo.ch)  
-  Scopri di più su di noi e sui nostri progetti sul nostro sito web.  
+## La Nostra Storia
+Tutto è iniziato con [**bimdo.ch**](https://bimdo.ch) - un blog con esperienze di gestione della progettazione. La motivazione era chiara: il BIM era spesso percepito come una scatola nera nei progetti. Belle presentazioni di marketing contrastavano con l'implementazione pratica, che significava molto sperimentare e lavorare nei fine settimana.
 
-[**bimdoer:**](https://bimdo.ch/bimdoer)  
-  Utilizza l'intera gamma per tutto il tuo team direttamente sulla piattaforma bimdoer.  
+Dal blog si è evoluto il nostro [**canale YouTube bimdoer**](https://www.youtube.com/@bimdoer) e infine il nostro [**bimdoer**](https://bimdo.ch/bimdoer) - una combinazione di template Archicad e piattaforma di tutorial che verrà lanciata questa estate. Mentre con bimdoer offriamo servizi e tutorial per architetti, bimdonity rimane la base di conoscenza gratuita su GitHub.
 
-[**LinkedIn:**](https://www.linkedin.com/in/manuel-emmenegger-45353819b/)  
-  Connettiti con me su LinkedIn per notizie professionali e contatti.  
+## Partecipa e Supporta
+Puoi contribuire in vari modi:
+- Scrivere i tuoi articoli
+- Migliorare i contenuti esistenti
+- Supportare la conoscenza open-source attraverso donazioni
+> Contattami semplicemente tramite [**LinkedIn**](https://www.linkedin.com/in/manuel-emmenegger-45353819b/) o direttamente tramite [**GitHub**](https://github.com/bimdoer/).
 
-[**GitHub:**](https://github.com/bimdoer/)  
-  Trovaci su GitHub e lavora direttamente con il codice open-source.
+Condividiamo insieme la conoscenza BIM e plasmiamo il futuro dell'edilizia digitale! 🤝

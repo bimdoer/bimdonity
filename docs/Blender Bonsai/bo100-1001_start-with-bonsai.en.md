@@ -10,7 +10,12 @@ tags:
 
 ## Introduction
 As part of a Bonsai interview series by [Petru Conduraru](https://www.linkedin.com/in/petruc/), the following content was created to help you get started with Bonsai. Would you like to share your knowledge too? Contact Petru directly and become part of the interview series.
-You can find the related interview [here](https://www.linkedin.com/events/7306208458582757378/about/).
+You can find the related interview [here](https://www.youtube.com/watch?v=bp3uZyTVqpk).
+
+<div class="video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/bp3uZyTVqpk?si=ZIHVXgTVxoe754So" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 ---
 ## Helpful Links
