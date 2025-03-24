@@ -28,6 +28,24 @@
         <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/About/privacy-policy/"/>
     </url>
     <url>
+        <loc>https://bimdonity.ch/About/Contribute/mk100-1000_markdown-empty/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/About/Contribute/mk100-1000_markdown-empty/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/About/Contribute/mk100-1000_markdown-empty/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/About/Contribute/mk100-1000_markdown-empty/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/About/Contribute/mk100-1000_markdown-empty/"/>
+    </url>
+    <url>
+        <loc>https://bimdonity.ch/About/Contribute/mk100-1001_markdown-templates/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/About/Contribute/mk100-1001_markdown-templates/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/About/Contribute/mk100-1001_markdown-templates/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/About/Contribute/mk100-1001_markdown-templates/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/About/Contribute/mk100-1001_markdown-templates/"/>
+    </url>
+    <url>
         <loc>https://bimdonity.ch/Archicad/1%20Preperation/under-construction/</loc>
         <lastmod>2025-03-24</lastmod>
         <changefreq>daily</changefreq>
@@ -172,24 +190,6 @@
         <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/Blender%20Bonsai/bo100-1001_start-with-bonsai/"/>
     </url>
     <url>
-        <loc>https://bimdonity.ch/Contribute/mk100-1000_markdown-empty/</loc>
-        <lastmod>2025-03-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/Contribute/mk100-1000_markdown-empty/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/Contribute/mk100-1000_markdown-empty/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/Contribute/mk100-1000_markdown-empty/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/Contribute/mk100-1000_markdown-empty/"/>
-    </url>
-    <url>
-        <loc>https://bimdonity.ch/Contribute/mk100-1001_markdown-templates/</loc>
-        <lastmod>2025-03-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/Contribute/mk100-1001_markdown-templates/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/Contribute/mk100-1001_markdown-templates/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/Contribute/mk100-1001_markdown-templates/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/Contribute/mk100-1001_markdown-templates/"/>
-    </url>
-    <url>
         <loc>https://bimdonity.ch/Grasshopper/gh100-1000_fundamentals-import/</loc>
         <lastmod>2025-03-24</lastmod>
         <changefreq>daily</changefreq>
@@ -224,6 +224,24 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/About/privacy-policy/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/About/privacy-policy/"/>
         <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/About/privacy-policy/"/>
+    </url>
+    <url>
+        <loc>https://bimdonity.ch/de/About/Contribute/mk100-1000_markdown-empty/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/About/Contribute/mk100-1000_markdown-empty/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/About/Contribute/mk100-1000_markdown-empty/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/About/Contribute/mk100-1000_markdown-empty/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/About/Contribute/mk100-1000_markdown-empty/"/>
+    </url>
+    <url>
+        <loc>https://bimdonity.ch/de/About/Contribute/mk100-1001_markdown-templates/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/About/Contribute/mk100-1001_markdown-templates/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/About/Contribute/mk100-1001_markdown-templates/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/About/Contribute/mk100-1001_markdown-templates/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/About/Contribute/mk100-1001_markdown-templates/"/>
     </url>
     <url>
         <loc>https://bimdonity.ch/de/Archicad/1%20Preperation/under-construction/</loc>
@@ -370,24 +388,6 @@
         <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/Blender%20Bonsai/bo100-1001_start-with-bonsai/"/>
     </url>
     <url>
-        <loc>https://bimdonity.ch/de/Contribute/mk100-1000_markdown-empty/</loc>
-        <lastmod>2025-03-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/Contribute/mk100-1000_markdown-empty/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/Contribute/mk100-1000_markdown-empty/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/Contribute/mk100-1000_markdown-empty/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/Contribute/mk100-1000_markdown-empty/"/>
-    </url>
-    <url>
-        <loc>https://bimdonity.ch/de/Contribute/mk100-1001_markdown-templates/</loc>
-        <lastmod>2025-03-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/Contribute/mk100-1001_markdown-templates/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/Contribute/mk100-1001_markdown-templates/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/Contribute/mk100-1001_markdown-templates/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/Contribute/mk100-1001_markdown-templates/"/>
-    </url>
-    <url>
         <loc>https://bimdonity.ch/de/Grasshopper/gh100-1000_fundamentals-import/</loc>
         <lastmod>2025-03-24</lastmod>
         <changefreq>daily</changefreq>
@@ -422,6 +422,24 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/About/privacy-policy/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/About/privacy-policy/"/>
         <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/About/privacy-policy/"/>
+    </url>
+    <url>
+        <loc>https://bimdonity.ch/fr/About/Contribute/mk100-1000_markdown-empty/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/About/Contribute/mk100-1000_markdown-empty/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/About/Contribute/mk100-1000_markdown-empty/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/About/Contribute/mk100-1000_markdown-empty/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/About/Contribute/mk100-1000_markdown-empty/"/>
+    </url>
+    <url>
+        <loc>https://bimdonity.ch/fr/About/Contribute/mk100-1001_markdown-templates/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/About/Contribute/mk100-1001_markdown-templates/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/About/Contribute/mk100-1001_markdown-templates/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/About/Contribute/mk100-1001_markdown-templates/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/About/Contribute/mk100-1001_markdown-templates/"/>
     </url>
     <url>
         <loc>https://bimdonity.ch/fr/Archicad/1%20Preperation/under-construction/</loc>
@@ -568,24 +586,6 @@
         <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/Blender%20Bonsai/bo100-1001_start-with-bonsai/"/>
     </url>
     <url>
-        <loc>https://bimdonity.ch/fr/Contribute/mk100-1000_markdown-empty/</loc>
-        <lastmod>2025-03-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/Contribute/mk100-1000_markdown-empty/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/Contribute/mk100-1000_markdown-empty/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/Contribute/mk100-1000_markdown-empty/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/Contribute/mk100-1000_markdown-empty/"/>
-    </url>
-    <url>
-        <loc>https://bimdonity.ch/fr/Contribute/mk100-1001_markdown-templates/</loc>
-        <lastmod>2025-03-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/Contribute/mk100-1001_markdown-templates/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/Contribute/mk100-1001_markdown-templates/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/Contribute/mk100-1001_markdown-templates/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/Contribute/mk100-1001_markdown-templates/"/>
-    </url>
-    <url>
         <loc>https://bimdonity.ch/fr/Grasshopper/gh100-1000_fundamentals-import/</loc>
         <lastmod>2025-03-24</lastmod>
         <changefreq>daily</changefreq>
@@ -620,6 +620,24 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/About/privacy-policy/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/About/privacy-policy/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/About/privacy-policy/"/>
+    </url>
+    <url>
+        <loc>https://bimdonity.ch/it/About/Contribute/mk100-1000_markdown-empty/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/About/Contribute/mk100-1000_markdown-empty/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/About/Contribute/mk100-1000_markdown-empty/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/About/Contribute/mk100-1000_markdown-empty/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/About/Contribute/mk100-1000_markdown-empty/"/>
+    </url>
+    <url>
+        <loc>https://bimdonity.ch/it/About/Contribute/mk100-1001_markdown-templates/</loc>
+        <lastmod>2025-03-24</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/About/Contribute/mk100-1001_markdown-templates/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/About/Contribute/mk100-1001_markdown-templates/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/About/Contribute/mk100-1001_markdown-templates/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/About/Contribute/mk100-1001_markdown-templates/"/>
     </url>
     <url>
         <loc>https://bimdonity.ch/it/Archicad/1%20Preperation/under-construction/</loc>
@@ -764,24 +782,6 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/Blender%20Bonsai/bo100-1001_start-with-bonsai/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/Blender%20Bonsai/bo100-1001_start-with-bonsai/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/Blender%20Bonsai/bo100-1001_start-with-bonsai/"/>
-    </url>
-    <url>
-        <loc>https://bimdonity.ch/it/Contribute/mk100-1000_markdown-empty/</loc>
-        <lastmod>2025-03-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/Contribute/mk100-1000_markdown-empty/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/Contribute/mk100-1000_markdown-empty/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/Contribute/mk100-1000_markdown-empty/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/Contribute/mk100-1000_markdown-empty/"/>
-    </url>
-    <url>
-        <loc>https://bimdonity.ch/it/Contribute/mk100-1001_markdown-templates/</loc>
-        <lastmod>2025-03-24</lastmod>
-        <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="it" href="https://bimdonity.ch/it/Contribute/mk100-1001_markdown-templates/"/>
-        <xhtml:link rel="alternate" hreflang="de" href="https://bimdonity.ch/de/Contribute/mk100-1001_markdown-templates/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://bimdonity.ch/Contribute/mk100-1001_markdown-templates/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://bimdonity.ch/fr/Contribute/mk100-1001_markdown-templates/"/>
     </url>
     <url>
         <loc>https://bimdonity.ch/it/Grasshopper/gh100-1000_fundamentals-import/</loc>
